@@ -1,0 +1,24 @@
+.cls1 {
+  fill: #ffffff;
+}
+
+.cls2 {
+  fill: #ff5252;
+}
+
+.cls3 {
+  fill: #448aff;
+}
+
+.cls4 {
+  font-family: Roboto;
+  font-size: 14px;
+  fill: #5d5d5d;
+}
+
+.iconUsaDesktop {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  cursor: pointer;
+}

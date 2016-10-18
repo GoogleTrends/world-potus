@@ -1,0 +1,32 @@
+.button {
+  display: flex;
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+
+  cursor: pointer;
+  letter-spacing: .75px;
+
+  opacity: .5;
+  color: white;
+  border-bottom: 3px solid transparent;
+  background: transparent;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonActive {
+  composes: button;
+
+  opacity: 1;
+  border-bottom: 3px solid white;
+}
+
+@media screen and (min-width: 1024px) {
+  /* Only on desktop because hover triggers erroneously on tap */
+  .button:hover {
+    opacity: 1;
+  }
+}

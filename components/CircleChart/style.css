@@ -1,0 +1,58 @@
+.circleLimit {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 1,6;
+}
+
+.circleAverage {
+  composes: circleLimit;
+
+  opacity: .5;
+
+  stroke-dasharray: 0;
+}
+
+.circleCenter {
+  opacity: .5;
+
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+.circleTextState {
+  composes: dialog from 'common.css';
+
+  font-size: 12px;
+
+  opacity: 1;
+
+  fill: #fee94e;
+  text-anchor: middle;
+}
+
+.circleTextAvg {
+  composes: dialog from 'common.css';
+
+  font-size: 12px;
+
+  opacity: .5;
+
+  fill: white;
+  text-anchor: middle;
+}
+
+.circleTextUSA {
+  composes: dialog from 'common.css';
+
+  font-size: 12px;
+
+  opacity: 1;
+
+  fill: #ffffff;
+  text-anchor: middle;
+}
+
+.circleChart {
+  width: 90%;
+  height: 90%;
+}

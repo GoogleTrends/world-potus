@@ -1,0 +1,132 @@
+.charts {
+  z-index: 2;
+  z-index: 3;
+  top: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+
+  color: black;
+  background-color: white;
+
+  align-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chartsTitle {
+  composes: title from 'common.css';
+
+  font-size: 14px;
+  font-weight: bold;
+
+  margin: 0 10px 10px 20px;
+
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.chartsSubTitle {
+  composes: dialog from 'common.css';
+
+  font-size: 12px;
+
+  height: 25px;
+  margin: 5px 0 5px 20px;
+
+  color: #2b3b55;
+  color: #bdbdbd;
+}
+
+.chartsLink {
+  composes: chartsSubTitle;
+
+  cursor: pointer;
+}
+
+.chartsLink:hover {
+  font-weight: bold;
+
+  color: #000000;
+}
+
+.chartsContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  width: 100%;
+  height: calc(100% - 298px);
+
+  justify-content: flex-start;
+}
+
+.infoContainer {
+  display: flex;
+
+  width: 100%;
+  height: 98px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 20px;
+
+  justify-content: flex-start;
+}
+
+.scrollableSection {
+  overflow: hidden;
+
+  height: calc(100% - 55px);
+
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.logo {
+  font-size: 12px;
+
+  width: 80px;
+  height: 20px;
+  margin-right: 20px;
+
+  text-decoration: none;
+
+  color: #bdbdbd;
+
+  fill: #bdbdbd;
+  flex-wrap: wrap;
+}
+
+.logo:hover {
+  color: black;
+}
+
+.logo:hover path, .logo:hover rect {
+  fill: black;
+}
+
+.chartsScrollingContainer {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.legend {
+  display: flex;
+  flex-direction: column;
+
+  width: calc(100% - 20px);
+  max-width: 275px;
+  height: 180px;
+  margin: 10px 0 10px 20px;
+
+  align-self: flex-start;
+  justify-content: center;
+}
+.legend .chartsTitle {
+  margin-left: 0;
+}

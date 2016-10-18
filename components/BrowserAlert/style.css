@@ -1,0 +1,10 @@
+.browserAlert {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #112340;
+  background-image: url('/img/browser_alert.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

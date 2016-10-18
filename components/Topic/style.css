@@ -1,0 +1,41 @@
+.topic {
+  width: 50%;
+  height: 100px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: white;
+}
+
+.topic.desktop {
+  width: 100%;
+  height: 22%;
+}
+
+/*.topic:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}*/
+
+.topicImage {
+  height: 90%;
+}
+
+.topicTitle {
+  composes: title from 'common.css';
+
+  font-size: 12px;
+
+  position: relative;
+  z-index: 2;
+
+  text-transform: uppercase;
+}
+
+.topic a {
+  text-decoration: none;
+
+  color: white;
+}

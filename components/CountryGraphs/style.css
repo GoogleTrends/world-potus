@@ -1,0 +1,81 @@
+.countryGraphs {
+  padding: 10px 25px;
+  composes: dialog from 'common.css';
+  width: 100%;
+  display: block;
+}
+
+.countrySmallGraph svg {
+  width: 85%;
+  height: 85%;
+}
+
+.countryGraphsTitle {
+  height: 5%;
+  text-transform: uppercase;
+  font-size: 13px;
+  composes: title from 'common.css';
+  justify-content: center;
+}
+
+.countryGraphsChart {
+  height: 95%;
+}
+
+.countryDataName {
+  font-size: 30px;
+  color: white;
+  width: 100%;
+  height: 40px;
+  composes: title from 'common.css';
+}
+
+.countryMainGraphs {
+  width: 33.2%;
+  height: 290px;
+  min-height: 300px;
+  text-align: center;
+  float: left;
+  display: block;
+}
+
+.countrySmallGraphs {
+  width: 66%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.countrySmallGraph {
+  width: 16.6%;
+  height: 180px;
+  text-align: center;
+  float: left;
+  display: block;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.link {
+  margin: 0 auto;
+  width: 220px;
+  position: relative;
+  display: block;
+}
+
+.countryDataTitle {
+  width: 50%;
+  opacity: 0.5;
+  height: 30px;
+  font-size:14px;
+}
+
+.countryDataValue {
+  width: 50%;
+  color: #ffffff;
+  height: 30px;
+  font-size:14px;
+}

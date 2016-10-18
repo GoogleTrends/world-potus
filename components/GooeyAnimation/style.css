@@ -1,0 +1,95 @@
+.svgLoader {
+  display: flex;
+
+  transform: scale(.7);
+
+  opacity: 0;
+}
+
+.animate {
+  transition: 1s opacity;
+  transition-delay: 1s;
+
+  opacity: 1;
+}
+
+.svgLoader g {
+  filter: url(#gooeyCodeFilter);
+}
+
+.svgLoader .node1 {
+  animation-name: anim;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.svgLoader .node2 {
+  animation-name: anim3;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .2s;
+  animation-iteration-count: infinite;
+}
+
+.svgLoader .node0 {
+  animation-name: anim3;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anim {
+  0% {
+    transform: scale(1);
+
+    fill: #fc5457;
+  }
+  50% {
+    transform: scale(.6) translate(140px, 140px);
+
+    fill: #4448ff;
+  }
+  100% {
+    transform: scale(1);
+
+    fill: #fc5457;
+  }
+}
+
+@keyframes anim2 {
+  0% {
+    transform: scale(1);
+
+    fill: #fc5457;
+  }
+  50% {
+    transform: scale(.6) translate(120px, 140px);
+
+    fill: #4448ff;
+  }
+  100% {
+    transform: scale(1);
+
+    fill: #fc5457;
+  }
+}
+
+@keyframes anim3 {
+  0% {
+    transform: scale(.8) translate(55px, 50px);
+
+    fill: #fc5457;
+  }
+  50% {
+    transform: scale(.6) translate(130px, 140px);
+
+    fill: #4448ff;
+  }
+  100% {
+    transform: scale(.8) translate(55px, 50px);
+
+    fill: #fc5457;
+  }
+}

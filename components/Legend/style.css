@@ -1,0 +1,79 @@
+.legend {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 100%;
+
+  justify-content: center;
+}
+
+.blobLegend {
+  position: relative;
+
+  width: 48px;
+  height: 205px;
+
+  background-image: url('/img/blobLegend.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+
+  align-self: flex-end;
+}
+
+.svgContainer {
+  position: absolute;
+  z-index: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+
+  justify-content: center;
+}
+
+.svgContainer.blob {
+  width: 98%;
+}
+.svgGraticule {
+  position: relative;
+  z-index: 0;
+
+  height: 100%;
+}
+.svgSwipe {
+  position: absolute;
+  top: 50%;
+  left: 0;
+
+  margin-top: -100px;
+}
+.svgSwipe text {
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  letter-spacing: .48px;
+  letter-spacing: .03rem;
+  text-transform: uppercase;
+
+  opacity: .8;
+
+  fill: white;
+}
+.line {
+  opacity: .5;
+
+  stroke: white;
+  stroke-width: .5;
+}

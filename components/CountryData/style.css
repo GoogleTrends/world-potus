@@ -1,0 +1,44 @@
+.countryData {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px 25px;
+  align-items: flex-start;
+  composes: dialog from 'common.css';
+}
+
+.countryDataImage {
+  width: 24%;
+  height: 150px;
+  text-align: center;
+  justify-content: center;
+}
+
+.countryDataRow {
+  width: 100%;
+}
+
+.countryDataText {
+  width: 38%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 160px;
+  padding-top: 10px;
+}
+
+.countryDataTitle {
+  width: 50%;
+  opacity: 0.5;
+  height: 33px;
+  font-size:14px;
+  padding-right: 5px;
+}
+
+.countryDataValue {
+  width: 50%;
+  color: #ffffff;
+  height: 33px;
+  font-size:14px;
+}

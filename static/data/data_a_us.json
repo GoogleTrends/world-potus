@@ -1,0 +1,4617 @@
+{
+  "date": "2016-10-12",
+  "hasUS": true,
+  "topics": [
+    {
+      "slug": "candidates",
+      "data": {
+        "HC": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AFR",
+              "value": 15,
+              "historicValue": 18,
+              "countriesCount": 3,
+              "historicCountriesCount": 3
+            },
+            {
+              "geoCode": "OCE",
+              "value": 13,
+              "historicValue": 16,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "AME",
+              "value": 9,
+              "historicValue": 13,
+              "countriesCount": 6,
+              "historicCountriesCount": 6
+            },
+            {
+              "geoCode": "EUR",
+              "value": 7,
+              "historicValue": 10,
+              "countriesCount": 20,
+              "historicCountriesCount": 20
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 4,
+              "historicValue": 5,
+              "countriesCount": 14,
+              "historicCountriesCount": 14
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 48,
+              "historicValue": 44,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.5709463499717525,
+                0.5029954341150735
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CA",
+              "value": 28,
+              "historicValue": 29,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.3764264247304382,
+                0.6071613469393851
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "MX",
+              "value": 4,
+              "historicValue": 6,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.49695018886247866,
+                0.6108278030512341
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "IE",
+              "value": 16,
+              "historicValue": 17,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.49952981730532353,
+                0.33603765594283097
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "NL",
+              "value": 16,
+              "historicValue": 26,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.575893980131996,
+                0.6534917657119175
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "NO",
+              "value": 12,
+              "historicValue": 13,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.6822804489370836,
+                0.5901040601489022
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "NZ",
+              "value": 16,
+              "historicValue": 18,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.3382350202032778,
+                0.44762051909100714
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "AU",
+              "value": 13,
+              "historicValue": 15,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.4270096727908345,
+                0.3647618603536298
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "SG",
+              "value": 14,
+              "historicValue": 16,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.6656292614418883,
+                0.3944399051093525
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "IL",
+              "value": 7,
+              "historicValue": 7,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.6314661528480158,
+                0.6180387095208093
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "KE",
+              "value": 13,
+              "historicValue": 14,
+              "continentGeoCode": "AFR",
+              "blobPosition": [
+                0.44188912747051035,
+                0.685378247865206
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "NG",
+              "value": 11,
+              "historicValue": 11,
+              "continentGeoCode": "AFR",
+              "blobPosition": [
+                0.32566136570758947,
+                0.5205409484410223
+              ],
+              "continentRelatedIndex": 1
+            }
+          ],
+          "topicAvg": 7
+        },
+        "DT": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "OCE",
+              "value": 18,
+              "historicValue": 19,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "AFR",
+              "value": 16,
+              "historicValue": 15,
+              "countriesCount": 3,
+              "historicCountriesCount": 3
+            },
+            {
+              "geoCode": "AME",
+              "value": 15,
+              "historicValue": 15,
+              "countriesCount": 6,
+              "historicCountriesCount": 6
+            },
+            {
+              "geoCode": "EUR",
+              "value": 7,
+              "historicValue": 9,
+              "countriesCount": 18,
+              "historicCountriesCount": 17
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 4,
+              "historicValue": 5,
+              "countriesCount": 14,
+              "historicCountriesCount": 14
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 100,
+              "historicValue": 100,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.7624890603599873,
+                0.5019955174691403
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CA",
+              "value": 97,
+              "historicValue": 93,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.31153606713082493,
+                0.7207697128221886
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "MX",
+              "value": 10,
+              "historicValue": 12,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.6250641054304505,
+                0.8282228764574754
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "IE",
+              "value": 48,
+              "historicValue": 47,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.27724764126564255,
+                0.3179472963712183
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "NL",
+              "value": 29,
+              "historicValue": 39,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.7287336239655209,
+                0.7780278524372788
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "NO",
+              "value": 27,
+              "historicValue": 27,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.6952387665484657,
+                0.9056423857286449
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "NZ",
+              "value": 42,
+              "historicValue": 43,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.5375944767232314,
+                0.916
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "AU",
+              "value": 37,
+              "historicValue": 40,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.6465186557970096,
+                0.23059993930388006
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "SG",
+              "value": 39,
+              "historicValue": 40,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.472287107437722,
+                0.29657094495959785
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "IL",
+              "value": 16,
+              "historicValue": 14,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.5641358654758363,
+                0.6571886019113637
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "KE",
+              "value": 28,
+              "historicValue": 26,
+              "continentGeoCode": "AFR",
+              "blobPosition": [
+                0.39196476319916934,
+                0.16528131377925012
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "NG",
+              "value": 20,
+              "historicValue": 19,
+              "continentGeoCode": "AFR",
+              "blobPosition": [
+                0.2436260287762613,
+                0.47598623384831873
+              ],
+              "continentRelatedIndex": 1
+            }
+          ],
+          "topicAvg": 18
+        }
+      }
+    },
+    {
+      "slug": "abortion",
+      "data": {
+        "HC": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 6,
+              "historicValue": 6,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "OCE",
+              "value": 5,
+              "historicValue": 5,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 2,
+              "historicValue": 3,
+              "countriesCount": 8,
+              "historicCountriesCount": 6
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 100,
+              "historicValue": 100,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.5942974906406697,
+                0.4621870199872851
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CA",
+              "value": 14,
+              "historicValue": 13,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.3741765865277832,
+                0.5764356436388239
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "MX",
+              "value": 2,
+              "historicValue": 2,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.4726952121968345,
+                0.6503126296002405
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "DK",
+              "value": 11,
+              "historicValue": 12,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.41547236945104804,
+                0.2991349055597427
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "NO",
+              "value": 10,
+              "historicValue": 0,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5475294252196251,
+                0.6975878916359769
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "IE",
+              "value": 8,
+              "historicValue": 9,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.3586339502445137,
+                0.449494980690359
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "SE",
+              "value": 7,
+              "historicValue": 16,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.42114585554065004,
+                0.6195942165485204
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "UK",
+              "value": 4,
+              "historicValue": 4,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.37762288815857253,
+                0.3912059027081641
+              ],
+              "continentRelatedIndex": 4
+            },
+            {
+              "geoCode": "NL",
+              "value": 2,
+              "historicValue": 0,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.6828398036724657,
+                0.6679448130476512
+              ],
+              "continentRelatedIndex": 5
+            },
+            {
+              "geoCode": "FR",
+              "value": 2,
+              "historicValue": 1,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.3751303102844409,
+                0.5084978607424163
+              ],
+              "continentRelatedIndex": 6
+            },
+            {
+              "geoCode": "DE",
+              "value": 2,
+              "historicValue": 2,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5530335879531907,
+                0.2420205261627519
+              ],
+              "continentRelatedIndex": 7
+            },
+            {
+              "geoCode": "AU",
+              "value": 7,
+              "historicValue": 7,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.8268090107126834,
+                0.43583567776218707
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 14
+        },
+        "DT": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 8,
+              "historicValue": 8,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "OCE",
+              "value": 5,
+              "historicValue": 6,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "EUR",
+              "value": 5,
+              "historicValue": 5,
+              "countriesCount": 8,
+              "historicCountriesCount": 7
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 59,
+              "historicValue": 60,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.6138870917164865,
+                0.49171514183379367
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "DK",
+              "value": 14,
+              "historicValue": 10,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4557614891928926,
+                0.5423037927583784
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "IE",
+              "value": 14,
+              "historicValue": 7,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.47693763734919487,
+                0.3978541684688603
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "SE",
+              "value": 13,
+              "historicValue": 21,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5257372082053237,
+                0.63001495282936
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "NO",
+              "value": 11,
+              "historicValue": 7,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5534749810321807,
+                0.34354616479738476
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "UK",
+              "value": 4,
+              "historicValue": 4,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5796124515267004,
+                0.6336346531166309
+              ],
+              "continentRelatedIndex": 4
+            },
+            {
+              "geoCode": "FR",
+              "value": 2,
+              "historicValue": 1,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.47194553774905884,
+                0.4929265843427568
+              ],
+              "continentRelatedIndex": 5
+            },
+            {
+              "geoCode": "DE",
+              "value": 2,
+              "historicValue": 1,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5258533272756021,
+                0.38032991446651027
+              ],
+              "continentRelatedIndex": 6
+            },
+            {
+              "geoCode": "CA",
+              "value": 12,
+              "historicValue": 12,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.4121597611469562,
+                0.46214068195116564
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "MX",
+              "value": 2,
+              "historicValue": 2,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.4975930531487161,
+                0.5731934464432146
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "AU",
+              "value": 7,
+              "historicValue": 6,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.47272156113114366,
+                0.6019233765624786
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "NZ",
+              "value": 6,
+              "historicValue": 11,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.4679412187449607,
+                0.4571469112422424
+              ],
+              "continentRelatedIndex": 1
+            }
+          ],
+          "topicAvg": 11
+        }
+      }
+    },
+    {
+      "slug": "black_lives_matter",
+      "data": {
+        "HC": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 22,
+              "historicValue": 15,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "OCE",
+              "value": 2,
+              "historicValue": 6,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 2,
+              "historicValue": 10,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 69,
+              "historicValue": 82,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.6177483418965426,
+                0.5192011708463059
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CA",
+              "value": 21,
+              "historicValue": 17,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.42042691065612076,
+                0.48657254053970006
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "AU",
+              "value": 2,
+              "historicValue": 7,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.49411767041085675,
+                0.41450136998628906
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "UK",
+              "value": 2,
+              "historicValue": 10,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4674537573899753,
+                0.5796835451870844
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 24
+        },
+        "DT": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 16,
+              "historicValue": 31,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "OCE",
+              "value": 6,
+              "historicValue": 12,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 6,
+              "historicValue": 11,
+              "countriesCount": 2,
+              "historicCountriesCount": 1
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 100,
+              "historicValue": 100,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.5522015460493841,
+                0.33111299158244767
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CA",
+              "value": 23,
+              "historicValue": 42,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.5179734823918694,
+                0.5949054494717497
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "UK",
+              "value": 11,
+              "historicValue": 14,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.36398207914907654,
+                0.4832337701930688
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "DE",
+              "value": 4,
+              "historicValue": 0,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4473730274065935,
+                0.533597044793633
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "AU",
+              "value": 8,
+              "historicValue": 17,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.6183062443942671,
+                0.5576746315622041
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 29
+        }
+      }
+    },
+    {
+      "slug": "brexit",
+      "data": {
+        "HC": {
+          "continentsData": [
+            {
+              "geoCode": "AME",
+              "value": 100,
+              "historicValue": 88,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 78,
+              "historicValue": 100,
+              "countriesCount": 5,
+              "historicCountriesCount": 5
+            },
+            {
+              "geoCode": "USA",
+              "value": 78,
+              "historicValue": 88,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "OCE",
+              "value": 67,
+              "historicValue": 63,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 33,
+              "historicValue": 38,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "UK",
+              "value": 22,
+              "historicValue": 27,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5630989047879124,
+                0.4903688667104294
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "IE",
+              "value": 19,
+              "historicValue": 22,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4614520877996961,
+                0.5316532634264837
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "IT",
+              "value": 2,
+              "historicValue": 3,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5220883647290167,
+                0.5445834140973795
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "DE",
+              "value": 1,
+              "historicValue": 1,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.49745963284648165,
+                0.48367927552033346
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "FR",
+              "value": 1,
+              "historicValue": 2,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5462508255670129,
+                0.5541842206205962
+              ],
+              "continentRelatedIndex": 4
+            },
+            {
+              "geoCode": "SG",
+              "value": 13,
+              "historicValue": 16,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.49131042845314404,
+                0.43607466374312376
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "IN",
+              "value": 1,
+              "historicValue": 1,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.4182037255590026,
+                0.49006533946855907
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "CA",
+              "value": 9,
+              "historicValue": 7,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.5146654286094124,
+                0.585922305179278
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "AU",
+              "value": 6,
+              "historicValue": 5,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.4408900955554748,
+                0.464740872722841
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "US",
+              "value": 5,
+              "historicValue": 5,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.5445551923122215,
+                0.41872978940202876
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 8
+        },
+        "DT": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "OCE",
+              "value": 71,
+              "historicValue": 64,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "AME",
+              "value": 63,
+              "historicValue": 56,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "EUR",
+              "value": 58,
+              "historicValue": 56,
+              "countriesCount": 13,
+              "historicCountriesCount": 13
+            },
+            {
+              "geoCode": "AFR",
+              "value": 38,
+              "historicValue": 20,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 33,
+              "historicValue": 32,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "IE",
+              "value": 100,
+              "historicValue": 100,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.7123232655152318,
+                0.5111909165190707
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "UK",
+              "value": 81,
+              "historicValue": 86,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.34030773277560306,
+                0.5982972326736267
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "NO",
+              "value": 16,
+              "historicValue": 5,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4376175193454885,
+                0.37555185786625406
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "SE",
+              "value": 15,
+              "historicValue": 11,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5524022319534314,
+                0.7080119833272848
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "SG",
+              "value": 38,
+              "historicValue": 38,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.469912299913146,
+                0.2519070503773246
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "IN",
+              "value": 3,
+              "historicValue": 3,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.5140835204514913,
+                0.6668723669045745
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "CA",
+              "value": 29,
+              "historicValue": 26,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.4833695214820814,
+                0.7910027913490321
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "MX",
+              "value": 1,
+              "historicValue": 1,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.5222559026924957,
+                0.6259199462834693
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "AU",
+              "value": 28,
+              "historicValue": 23,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.2852865888663242,
+                0.3666778538465339
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "NZ",
+              "value": 23,
+              "historicValue": 31,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.633289119036245,
+                0.2571434793437183
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "US",
+              "value": 17,
+              "historicValue": 18,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.6250801282045668,
+                0.7498069462355968
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "ZA",
+              "value": 9,
+              "historicValue": 5,
+              "continentGeoCode": "AFR",
+              "blobPosition": [
+                0.37249090879060853,
+                0.401122909485207
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 20
+        }
+      }
+    },
+    {
+      "slug": "economy",
+      "data": {
+        "HC": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 20,
+              "historicValue": 23,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 10,
+              "historicValue": 9,
+              "countriesCount": 5,
+              "historicCountriesCount": 5
+            },
+            {
+              "geoCode": "OCE",
+              "value": 9,
+              "historicValue": 10,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 3,
+              "historicValue": 4,
+              "countriesCount": 4,
+              "historicCountriesCount": 4
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 72,
+              "historicValue": 76,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.6157496893609828,
+                0.4567002283754284
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "DK",
+              "value": 36,
+              "historicValue": 23,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4167997450124051,
+                0.5837226101028643
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "SE",
+              "value": 25,
+              "historicValue": 26,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4180478377661286,
+                0.37465877315191204
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "FR",
+              "value": 10,
+              "historicValue": 9,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.3972526811854592,
+                0.47343997421016065
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "UK",
+              "value": 6,
+              "historicValue": 5,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.513045815384559,
+                0.6229179283045212
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "DE",
+              "value": 4,
+              "historicValue": 7,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.6377323958744745,
+                0.627287415402631
+              ],
+              "continentRelatedIndex": 4
+            },
+            {
+              "geoCode": "CA",
+              "value": 20,
+              "historicValue": 24,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.5765364498965884,
+                0.6569205105963555
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "AU",
+              "value": 9,
+              "historicValue": 11,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.5064013504623402,
+                0.31118804060877586
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "JP",
+              "value": 5,
+              "historicValue": 5,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.44191473729095854,
+                0.45084152584851594
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "VN",
+              "value": 4,
+              "historicValue": 4,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.44681380200536874,
+                0.4885244021008032
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "IN",
+              "value": 2,
+              "historicValue": 2,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.4872457387380983,
+                0.34856534006433004
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "ID",
+              "value": 1,
+              "historicValue": 3,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.5421434443200792,
+                0.6053302061380135
+              ],
+              "continentRelatedIndex": 3
+            }
+          ],
+          "topicAvg": 16
+        },
+        "DT": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 21,
+              "historicValue": 20,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "OCE",
+              "value": 10,
+              "historicValue": 13,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "EUR",
+              "value": 10,
+              "historicValue": 10,
+              "countriesCount": 7,
+              "historicCountriesCount": 7
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 6,
+              "historicValue": 7,
+              "countriesCount": 8,
+              "historicCountriesCount": 8
+            },
+            {
+              "geoCode": "AFR",
+              "value": 6,
+              "historicValue": 6,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 100,
+              "historicValue": 100,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.7092790367426528,
+                0.44116336922844346
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CA",
+              "value": 55,
+              "historicValue": 52,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.3123354342707862,
+                0.6264565796356777
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "MX",
+              "value": 3,
+              "historicValue": 3,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.4847313550102419,
+                0.46286062766164743
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "DK",
+              "value": 51,
+              "historicValue": 34,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.42831131816900114,
+                0.2822222078572415
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "SE",
+              "value": 47,
+              "historicValue": 44,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5297410489374084,
+                0.7774817512103854
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "NO",
+              "value": 27,
+              "historicValue": 36,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.49584043087513147,
+                0.6129822533079303
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "FR",
+              "value": 14,
+              "historicValue": 14,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4722866412164811,
+                0.5140273557814092
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "SG",
+              "value": 34,
+              "historicValue": 27,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.2798976242380198,
+                0.4311054245566617
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "KR",
+              "value": 18,
+              "historicValue": 25,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.42051787912819677,
+                0.44664615030282717
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "NZ",
+              "value": 32,
+              "historicValue": 35,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.6438919688498594,
+                0.1647465339031594
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "AU",
+              "value": 18,
+              "historicValue": 25,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.6659154727737108,
+                0.71447167092069
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "ZA",
+              "value": 8,
+              "historicValue": 9,
+              "continentGeoCode": "AFR",
+              "blobPosition": [
+                0.7270918484673008,
+                0.6764958230941468
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 22
+        }
+      }
+    },
+    {
+      "slug": "foreign_policy",
+      "data": {
+        "HC": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 14,
+              "historicValue": 24,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 11,
+              "historicValue": 16,
+              "countriesCount": 6,
+              "historicCountriesCount": 6
+            },
+            {
+              "geoCode": "OCE",
+              "value": 5,
+              "historicValue": 17,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 2,
+              "historicValue": 1,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 87,
+              "historicValue": 100,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.6604078919256179,
+                0.489176457810492
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "SE",
+              "value": 44,
+              "historicValue": 83,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.3859253381294758,
+                0.5541383506828154
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "DK",
+              "value": 29,
+              "historicValue": 77,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.45928378765313654,
+                0.3372473410409159
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "UK",
+              "value": 12,
+              "historicValue": 15,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.3949455329733837,
+                0.42241352947975647
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "DE",
+              "value": 10,
+              "historicValue": 11,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5517492947888645,
+                0.3048108297545336
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "FR",
+              "value": 9,
+              "historicValue": 13,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4934365005971079,
+                0.6197709410683887
+              ],
+              "continentRelatedIndex": 4
+            },
+            {
+              "geoCode": "IT",
+              "value": 9,
+              "historicValue": 6,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4559648333715516,
+                0.43300537801639033
+              ],
+              "continentRelatedIndex": 5
+            },
+            {
+              "geoCode": "CA",
+              "value": 17,
+              "historicValue": 33,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.5342084184257048,
+                0.6791112573843484
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "AU",
+              "value": 6,
+              "historicValue": 24,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.5998281710685952,
+                0.6860692068128365
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "IN",
+              "value": 2,
+              "historicValue": 1,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.46380642790507426,
+                0.4742668461774045
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 23
+        },
+        "DT": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 14,
+              "historicValue": 16,
+              "countriesCount": 6,
+              "historicCountriesCount": 6
+            },
+            {
+              "geoCode": "AME",
+              "value": 13,
+              "historicValue": 14,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "OCE",
+              "value": 7,
+              "historicValue": 19,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 3,
+              "historicValue": 2,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "DK",
+              "value": 100,
+              "historicValue": 56,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.7158514989788549,
+                0.506233226703788
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "SE",
+              "value": 40,
+              "historicValue": 95,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5261243373159961,
+                0.27367690566389163
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "FR",
+              "value": 9,
+              "historicValue": 13,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5084184088006742,
+                0.3896899331532356
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "IT",
+              "value": 9,
+              "historicValue": 9,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4545027662038823,
+                0.37476708930761965
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "UK",
+              "value": 9,
+              "historicValue": 10,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5183144997230429,
+                0.6391137595183616
+              ],
+              "continentRelatedIndex": 4
+            },
+            {
+              "geoCode": "DE",
+              "value": 8,
+              "historicValue": 12,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.479147115548089,
+                0.6762554208217627
+              ],
+              "continentRelatedIndex": 5
+            },
+            {
+              "geoCode": "US",
+              "value": 84,
+              "historicValue": 96,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.32908968048529635,
+                0.5382009311263298
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CA",
+              "value": 24,
+              "historicValue": 33,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.551890991530253,
+                0.7182654996584775
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "MX",
+              "value": 5,
+              "historicValue": 4,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.4979705637181738,
+                0.4365361529134649
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "AU",
+              "value": 8,
+              "historicValue": 26,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.4067668115457216,
+                0.34952271108554595
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "IN",
+              "value": 2,
+              "historicValue": 2,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.5115937592424754,
+                0.5976553739573254
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 27
+        }
+      }
+    },
+    {
+      "slug": "global_warming",
+      "data": {
+        "HC": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 26,
+              "historicValue": 27,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "OCE",
+              "value": 19,
+              "historicValue": 2,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 16,
+              "historicValue": 24,
+              "countriesCount": 3,
+              "historicCountriesCount": 3
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 31,
+              "historicValue": 39,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.5741329118269536,
+                0.48270058422663836
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "SE",
+              "value": 20,
+              "historicValue": 45,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4698372069270282,
+                0.5460134488072997
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "UK",
+              "value": 4,
+              "historicValue": 5,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4842092437799075,
+                0.479548388817247
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "DE",
+              "value": 2,
+              "historicValue": 2,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4967215868249146,
+                0.4452222075930464
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "CA",
+              "value": 11,
+              "historicValue": 15,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.43480321545801576,
+                0.4718643558304766
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "AU",
+              "value": 8,
+              "historicValue": 1,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.5402329185054432,
+                0.5746567175303443
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 13
+        },
+        "DT": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 19,
+              "historicValue": 18,
+              "countriesCount": 3,
+              "historicCountriesCount": 3
+            },
+            {
+              "geoCode": "OCE",
+              "value": 18,
+              "historicValue": 12,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "EUR",
+              "value": 15,
+              "historicValue": 15,
+              "countriesCount": 12,
+              "historicCountriesCount": 12
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 4,
+              "historicValue": 4,
+              "countriesCount": 4,
+              "historicCountriesCount": 3
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "NO",
+              "value": 100,
+              "historicValue": 47,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.7149209209089386,
+                0.5138326897247828
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "DK",
+              "value": 49,
+              "historicValue": 49,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.47028980310122104,
+                0.22027313301843948
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "IE",
+              "value": 36,
+              "historicValue": 22,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.3341857601029798,
+                0.35292639324110786
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "SE",
+              "value": 31,
+              "historicValue": 100,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.45651531443554033,
+                0.6990663346598528
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "FI",
+              "value": 26,
+              "historicValue": 32,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4563266982300006,
+                0.42935297021928726
+              ],
+              "continentRelatedIndex": 4
+            },
+            {
+              "geoCode": "US",
+              "value": 57,
+              "historicValue": 74,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.3195382936551426,
+                0.5588776211444693
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CA",
+              "value": 37,
+              "historicValue": 46,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.5899039182094916,
+                0.7799564248273405
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "MX",
+              "value": 3,
+              "historicValue": 6,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.45887552546540145,
+                0.5675605127482984
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "NZ",
+              "value": 32,
+              "historicValue": 25,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.6573493931780626,
+                0.23567483260374184
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "AU",
+              "value": 19,
+              "historicValue": 17,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.721636645958473,
+                0.7717365179995628
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "SG",
+              "value": 14,
+              "historicValue": 29,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.5240215554105702,
+                0.3560125462291688
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "JP",
+              "value": 2,
+              "historicValue": 2,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.4430268215562456,
+                0.5034923545824177
+              ],
+              "continentRelatedIndex": 1
+            }
+          ],
+          "topicAvg": 21
+        }
+      }
+    },
+    {
+      "slug": "gun_control",
+      "data": {
+        "HC": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 6,
+              "historicValue": 7,
+              "countriesCount": 4,
+              "historicCountriesCount": 4
+            },
+            {
+              "geoCode": "AME",
+              "value": 4,
+              "historicValue": 5,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 100,
+              "historicValue": 100,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.5076762130982772,
+                0.31642359084545185
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "SE",
+              "value": 35,
+              "historicValue": 47,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.494353291867804,
+                0.6061197696176902
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "FR",
+              "value": 4,
+              "historicValue": 4,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5641552676256232,
+                0.5373325157696258
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "UK",
+              "value": 3,
+              "historicValue": 2,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4352059570775888,
+                0.5305049838651162
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "DE",
+              "value": 2,
+              "historicValue": 2,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.6270934117862548,
+                0.5059537828401504
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "CA",
+              "value": 6,
+              "historicValue": 7,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.37149183596751717,
+                0.5042644411458554
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 25
+        },
+        "DT": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "OCE",
+              "value": 11,
+              "historicValue": 0,
+              "countriesCount": 1,
+              "historicCountriesCount": 0
+            },
+            {
+              "geoCode": "AME",
+              "value": 8,
+              "historicValue": 8,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 8,
+              "historicValue": 13,
+              "countriesCount": 5,
+              "historicCountriesCount": 5
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 60,
+              "historicValue": 62,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.6170149590831763,
+                0.49220831613207583
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "DK",
+              "value": 30,
+              "historicValue": 26,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.43360775659756834,
+                0.5720131135316541
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "SE",
+              "value": 25,
+              "historicValue": 51,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.453499938998395,
+                0.39541399174138614
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "FR",
+              "value": 4,
+              "historicValue": 3,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5284031258721154,
+                0.37366228337267626
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "DE",
+              "value": 2,
+              "historicValue": 1,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5147705991027745,
+                0.5935691051422648
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "UK",
+              "value": 2,
+              "historicValue": 4,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.47543595318893306,
+                0.46609239750823894
+              ],
+              "continentRelatedIndex": 4
+            },
+            {
+              "geoCode": "AU",
+              "value": 9,
+              "historicValue": 0,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.5376012881671844,
+                0.6288219012606249
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CA",
+              "value": 7,
+              "historicValue": 7,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.43942729235924294,
+                0.4782322634149851
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 17
+        }
+      }
+    },
+    {
+      "slug": "health_care",
+      "data": {
+        "HC": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 17,
+              "historicValue": 22,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 8,
+              "historicValue": 10,
+              "countriesCount": 6,
+              "historicCountriesCount": 5
+            },
+            {
+              "geoCode": "OCE",
+              "value": 5,
+              "historicValue": 7,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 2,
+              "historicValue": 0,
+              "countriesCount": 1,
+              "historicCountriesCount": 0
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 43,
+              "historicValue": 29,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.5804306680376442,
+                0.4916750193325597
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "SE",
+              "value": 27,
+              "historicValue": 14,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.42779805367696094,
+                0.5397069710931457
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "DK",
+              "value": 7,
+              "historicValue": 6,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5238718069773425,
+                0.5975289272979445
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "NL",
+              "value": 3,
+              "historicValue": 3,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5236314563835643,
+                0.39514409700393954
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "UK",
+              "value": 2,
+              "historicValue": 2,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5006881179030002,
+                0.5674216325748925
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "DE",
+              "value": 1,
+              "historicValue": 1,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.47868798195845585,
+                0.455466501232695
+              ],
+              "continentRelatedIndex": 4
+            },
+            {
+              "geoCode": "FR",
+              "value": 1,
+              "historicValue": 0,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.559866623904437,
+                0.5977010779929096
+              ],
+              "continentRelatedIndex": 5
+            },
+            {
+              "geoCode": "CA",
+              "value": 10,
+              "historicValue": 9,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.48150463601222765,
+                0.41361057878167473
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "AU",
+              "value": 3,
+              "historicValue": 3,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.4501906447807118,
+                0.4628954703951587
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "JP",
+              "value": 1,
+              "historicValue": 0,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.47323100769942544,
+                0.4788378818282788
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 10
+        },
+        "DT": {
+          "continentsData": [
+            {
+              "geoCode": "AME",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "USA",
+              "value": 61,
+              "historicValue": 45,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 5,
+              "historicValue": 4,
+              "countriesCount": 6,
+              "historicCountriesCount": 5
+            },
+            {
+              "geoCode": "OCE",
+              "value": 3,
+              "historicValue": 5,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "CA",
+              "value": 100,
+              "historicValue": 100,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.688258058982211,
+                0.5031088693496151
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "US",
+              "value": 44,
+              "historicValue": 33,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.38199842472802603,
+                0.5359811664239276
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "SE",
+              "value": 24,
+              "historicValue": 14,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.46089608400910115,
+                0.36115118093835036
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "DK",
+              "value": 5,
+              "historicValue": 6,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.49399716409252664,
+                0.6262955221590506
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "NL",
+              "value": 3,
+              "historicValue": 5,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5318088275992938,
+                0.34000347101573075
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "UK",
+              "value": 3,
+              "historicValue": 3,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.48082634596589124,
+                0.5927954613053616
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "DE",
+              "value": 2,
+              "historicValue": 1,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4762007486036284,
+                0.4313237968295043
+              ],
+              "continentRelatedIndex": 4
+            },
+            {
+              "geoCode": "FR",
+              "value": 2,
+              "historicValue": 0,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5187615564797807,
+                0.6495846160089107
+              ],
+              "continentRelatedIndex": 5
+            },
+            {
+              "geoCode": "AU",
+              "value": 3,
+              "historicValue": 5,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.466559367562052,
+                0.4597323126584241
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 21
+        }
+      }
+    },
+    {
+      "slug": "isis",
+      "data": {
+        "HC": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 18,
+              "historicValue": 4,
+              "countriesCount": 7,
+              "historicCountriesCount": 6
+            },
+            {
+              "geoCode": "OCE",
+              "value": 11,
+              "historicValue": 10,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "AME",
+              "value": 8,
+              "historicValue": 11,
+              "countriesCount": 3,
+              "historicCountriesCount": 3
+            },
+            {
+              "geoCode": "AFR",
+              "value": 6,
+              "historicValue": 6,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "EUR",
+              "value": 4,
+              "historicValue": 6,
+              "countriesCount": 16,
+              "historicCountriesCount": 16
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 100,
+              "historicValue": 100,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.6485230077882862,
+                0.37302881366888946
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CN",
+              "value": 76,
+              "historicValue": 0,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.38078298091822166,
+                0.6314294180113942
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "SG",
+              "value": 17,
+              "historicValue": 23,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.661576864081094,
+                0.6267666821479775
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "CA",
+              "value": 29,
+              "historicValue": 38,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.4171490373577275,
+                0.21891932761088317
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "MX",
+              "value": 2,
+              "historicValue": 4,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.5459252316218911,
+                0.5707009991503366
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "AU",
+              "value": 26,
+              "historicValue": 24,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.6369898596271665,
+                0.7299023163905506
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "NZ",
+              "value": 23,
+              "historicValue": 16,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.26405961422261165,
+                0.4472727851218606
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "NO",
+              "value": 19,
+              "historicValue": 23,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.7973091972788813,
+                0.5838557488370266
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "IE",
+              "value": 17,
+              "historicValue": 38,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.33019490331541956,
+                0.35817683094149966
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "UK",
+              "value": 16,
+              "historicValue": 17,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.7397162969075006,
+                0.6626112591652923
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "ZA",
+              "value": 8,
+              "historicValue": 10,
+              "continentGeoCode": "AFR",
+              "blobPosition": [
+                0.7245271554632958,
+                0.5963301817369694
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "EG",
+              "value": 7,
+              "historicValue": 7,
+              "continentGeoCode": "AFR",
+              "blobPosition": [
+                0.5794572163407723,
+                0.6407414187525583
+              ],
+              "continentRelatedIndex": 1
+            }
+          ],
+          "topicAvg": 14
+        },
+        "DT": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "OCE",
+              "value": 23,
+              "historicValue": 21,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "AFR",
+              "value": 16,
+              "historicValue": 15,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 13,
+              "historicValue": 15,
+              "countriesCount": 6,
+              "historicCountriesCount": 6
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 10,
+              "historicValue": 9,
+              "countriesCount": 12,
+              "historicCountriesCount": 11
+            },
+            {
+              "geoCode": "EUR",
+              "value": 10,
+              "historicValue": 9,
+              "countriesCount": 16,
+              "historicCountriesCount": 16
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 22,
+              "historicValue": 48,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.5265512602948268,
+                0.4857060169822286
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CA",
+              "value": 18,
+              "historicValue": 44,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.4446211759946734,
+                0.5459846741635831
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "MX",
+              "value": 2,
+              "historicValue": 4,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.5303568620295767,
+                0.3710439124983909
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "NZ",
+              "value": 13,
+              "historicValue": 22,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.49106835931561904,
+                0.401949278846447
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "AU",
+              "value": 10,
+              "historicValue": 22,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.4118527053148016,
+                0.4747932449037592
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "SG",
+              "value": 10,
+              "historicValue": 24,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.5444769082134786,
+                0.6036613951205542
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "IL",
+              "value": 9,
+              "historicValue": 7,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.428463525306425,
+                0.4153192538793503
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "DK",
+              "value": 10,
+              "historicValue": 27,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.594687048503417,
+                0.4357007034913716
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "NO",
+              "value": 9,
+              "historicValue": 10,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.48657987960320376,
+                0.6069169868985458
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "IE",
+              "value": 8,
+              "historicValue": 27,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5927494507977712,
+                0.5306253934512353
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "UK",
+              "value": 7,
+              "historicValue": 15,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.3802230536869405,
+                0.5185473262900081
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "ZA",
+              "value": 5,
+              "historicValue": 10,
+              "continentGeoCode": "AFR",
+              "blobPosition": [
+                0.4619108631854139,
+                0.44967788885199617
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 5
+        }
+      }
+    },
+    {
+      "slug": "oil",
+      "data": {
+        "HC": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 23,
+              "historicValue": 32,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "OCE",
+              "value": 19,
+              "historicValue": 23,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 10,
+              "historicValue": 9,
+              "countriesCount": 3,
+              "historicCountriesCount": 3
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 2,
+              "historicValue": 2,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 44,
+              "historicValue": 47,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.5839142869755407,
+                0.5249337585109092
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CA",
+              "value": 24,
+              "historicValue": 39,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.42792889670555195,
+                0.5221754344976683
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "MX",
+              "value": 3,
+              "historicValue": 2,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.48092785756407713,
+                0.5738040136215927
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "AU",
+              "value": 12,
+              "historicValue": 15,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.5060249202479769,
+                0.41835350383903663
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "UK",
+              "value": 8,
+              "historicValue": 10,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.49643894842508535,
+                0.6128348483516541
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "FR",
+              "value": 5,
+              "historicValue": 3,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.46514942170015444,
+                0.4536392376624873
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "DE",
+              "value": 3,
+              "historicValue": 3,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.555868164141739,
+                0.41443503984081315
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "IN",
+              "value": 1,
+              "historicValue": 1,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.4836230135232778,
+                0.4797682714209823
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 13
+        },
+        "DT": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 33,
+              "historicValue": 28,
+              "countriesCount": 3,
+              "historicCountriesCount": 3
+            },
+            {
+              "geoCode": "OCE",
+              "value": 23,
+              "historicValue": 21,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "EUR",
+              "value": 12,
+              "historicValue": 8,
+              "countriesCount": 5,
+              "historicCountriesCount": 5
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 11,
+              "historicValue": 9,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "CA",
+              "value": 100,
+              "historicValue": 100,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.7503540834173941,
+                0.546600571765384
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "BR",
+              "value": 4,
+              "historicValue": 2,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.5279291203710873,
+                0.5336063087604354
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "US",
+              "value": 79,
+              "historicValue": 97,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.29033656458496837,
+                0.5356622367846879
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "IE",
+              "value": 65,
+              "historicValue": 22,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5031472556278564,
+                0.2969073315146643
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "UK",
+              "value": 21,
+              "historicValue": 28,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.49546554822655675,
+                0.61525476801136
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "SE",
+              "value": 17,
+              "historicValue": 14,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4947038086717728,
+                0.48025792970725323
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "FR",
+              "value": 8,
+              "historicValue": 5,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.435406818563791,
+                0.6645586222229751
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "DE",
+              "value": 4,
+              "historicValue": 4,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5473392659664889,
+                0.4481051787365175
+              ],
+              "continentRelatedIndex": 4
+            },
+            {
+              "geoCode": "NZ",
+              "value": 56,
+              "historicValue": 57,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.5210864254244242,
+                0.7869315275893606
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "AU",
+              "value": 35,
+              "historicValue": 40,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.7196837628483707,
+                0.2581848935777698
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "SG",
+              "value": 55,
+              "historicValue": 49,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.24729117622611854,
+                0.250877040616076
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "IN",
+              "value": 4,
+              "historicValue": 6,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.4985593878991902,
+                0.5490805871804547
+              ],
+              "continentRelatedIndex": 1
+            }
+          ],
+          "topicAvg": 35
+        }
+      }
+    },
+    {
+      "slug": "racism",
+      "data": {
+        "HC": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 16,
+              "historicValue": 15,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "OCE",
+              "value": 11,
+              "historicValue": 8,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 5,
+              "historicValue": 5,
+              "countriesCount": 9,
+              "historicCountriesCount": 9
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 2,
+              "historicValue": 0,
+              "countriesCount": 1,
+              "historicCountriesCount": 0
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 41,
+              "historicValue": 47,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.5697470424619763,
+                0.47544362499941556
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CA",
+              "value": 15,
+              "historicValue": 18,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.45646013350679604,
+                0.5432179409920999
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "MX",
+              "value": 3,
+              "historicValue": 2,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.46287120833546125,
+                0.4599425961184361
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "SE",
+              "value": 9,
+              "historicValue": 9,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4654629654047466,
+                0.4160429616784233
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "UK",
+              "value": 7,
+              "historicValue": 8,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5304737808895839,
+                0.5845948483038365
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "IE",
+              "value": 5,
+              "historicValue": 8,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5269643630966796,
+                0.3719337879331101
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "DK",
+              "value": 4,
+              "historicValue": 10,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.48900232542515376,
+                0.591223851357556
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "FR",
+              "value": 2,
+              "historicValue": 2,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5683363857497654,
+                0.5814346573962992
+              ],
+              "continentRelatedIndex": 4
+            },
+            {
+              "geoCode": "NL",
+              "value": 2,
+              "historicValue": 3,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.46474359946832144,
+                0.489883848994317
+              ],
+              "continentRelatedIndex": 5
+            },
+            {
+              "geoCode": "DE",
+              "value": 2,
+              "historicValue": 2,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5014372751153032,
+                0.39439192183838934
+              ],
+              "continentRelatedIndex": 6
+            },
+            {
+              "geoCode": "AU",
+              "value": 6,
+              "historicValue": 5,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.42501520493135125,
+                0.4632618908000475
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "IN",
+              "value": 1,
+              "historicValue": 0,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.5938837060812217,
+                0.5766040856019113
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 7
+        },
+        "DT": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "OCE",
+              "value": 14,
+              "historicValue": 15,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "AFR",
+              "value": 14,
+              "historicValue": 10,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 10,
+              "historicValue": 15,
+              "countriesCount": 7,
+              "historicCountriesCount": 4
+            },
+            {
+              "geoCode": "EUR",
+              "value": 8,
+              "historicValue": 8,
+              "countriesCount": 14,
+              "historicCountriesCount": 12
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 3,
+              "historicValue": 2,
+              "countriesCount": 6,
+              "historicCountriesCount": 5
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 100,
+              "historicValue": 100,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.7255441617010451,
+                0.41734531245044804
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CA",
+              "value": 60,
+              "historicValue": 59,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.29778242771867225,
+                0.6338795614786622
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "PR",
+              "value": 38,
+              "historicValue": 0,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.5295516193862205,
+                0.80464756703112
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "NZ",
+              "value": 41,
+              "historicValue": 23,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.38296113215779387,
+                0.16483878550079278
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "AU",
+              "value": 26,
+              "historicValue": 35,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.5014986961131288,
+                0.2630751247824975
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "DK",
+              "value": 37,
+              "historicValue": 32,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.23199910743940394,
+                0.35280678717422054
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "SE",
+              "value": 34,
+              "historicValue": 30,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5960417032171812,
+                0.16003780431350917
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "NO",
+              "value": 32,
+              "historicValue": 23,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.501332429946449,
+                0.6473131790612382
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "UK",
+              "value": 31,
+              "historicValue": 30,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.44429314067925546,
+                0.4383084047682778
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "SG",
+              "value": 27,
+              "historicValue": 13,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.3763932030498623,
+                0.32060904609384916
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "PH",
+              "value": 6,
+              "historicValue": 5,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.5767399550567736,
+                0.7065490812225694
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "ZA",
+              "value": 19,
+              "historicValue": 14,
+              "continentGeoCode": "AFR",
+              "blobPosition": [
+                0.622920436086712,
+                0.654046524563419
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 19
+        }
+      }
+    },
+    {
+      "slug": "refugees",
+      "data": {
+        "HC": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 26,
+              "historicValue": 21,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "OCE",
+              "value": 13,
+              "historicValue": 17,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 9,
+              "historicValue": 8,
+              "countriesCount": 4,
+              "historicCountriesCount": 4
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 100,
+              "historicValue": 100,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.6198310387894497,
+                0.35480086637053165
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CA",
+              "value": 35,
+              "historicValue": 29,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.41834062368437597,
+                0.563404537755544
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "DE",
+              "value": 23,
+              "historicValue": 16,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.35473318405389975,
+                0.3769345036278841
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "UK",
+              "value": 11,
+              "historicValue": 9,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.3987160045377935,
+                0.4531546551666033
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "NL",
+              "value": 8,
+              "historicValue": 12,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.6313075219807086,
+                0.5905340809214693
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "FR",
+              "value": 4,
+              "historicValue": 3,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5161432367411417,
+                0.5577982056421358
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "AU",
+              "value": 18,
+              "historicValue": 24,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.5605591467965467,
+                0.603875473431021
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 28
+        },
+        "DT": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 30,
+              "historicValue": 24,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "OCE",
+              "value": 29,
+              "historicValue": 26,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "EUR",
+              "value": 20,
+              "historicValue": 21,
+              "countriesCount": 7,
+              "historicCountriesCount": 7
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 7,
+              "historicValue": 4,
+              "countriesCount": 3,
+              "historicCountriesCount": 3
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 64,
+              "historicValue": 67,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.49239146351765944,
+                0.4947394215933587
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "DE",
+              "value": 50,
+              "historicValue": 42,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.33339961370468246,
+                0.6851240288350985
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "DK",
+              "value": 37,
+              "historicValue": 36,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.7127762053098009,
+                0.38741202121135365
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "SE",
+              "value": 30,
+              "historicValue": 44,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.38640044965692494,
+                0.3129959668286755
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "UK",
+              "value": 16,
+              "historicValue": 20,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.6719941887104642,
+                0.5066734596797774
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "NL",
+              "value": 12,
+              "historicValue": 17,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.326926936965405,
+                0.5414231666506764
+              ],
+              "continentRelatedIndex": 4
+            },
+            {
+              "geoCode": "CA",
+              "value": 49,
+              "historicValue": 43,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.5553006325081399,
+                0.2569034156482473
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "BR",
+              "value": 3,
+              "historicValue": 1,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.37414828154461577,
+                0.3981187273294509
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "AU",
+              "value": 40,
+              "historicValue": 41,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.6693094360798341,
+                0.6385790446694525
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "NZ",
+              "value": 40,
+              "historicValue": 21,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.27345211773379186,
+                0.42954048344667173
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "SG",
+              "value": 34,
+              "historicValue": 18,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.5251386319665665,
+                0.7248093767371075
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "JP",
+              "value": 3,
+              "historicValue": 1,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.6413866045410047,
+                0.4574070845550911
+              ],
+              "continentRelatedIndex": 1
+            }
+          ],
+          "topicAvg": 26
+        }
+      }
+    },
+    {
+      "slug": "same_sex_marriage",
+      "data": {
+        "HC": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 17,
+              "historicValue": 11,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "OCE",
+              "value": 12,
+              "historicValue": 28,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 4,
+              "historicValue": 9,
+              "countriesCount": 4,
+              "historicCountriesCount": 4
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 100,
+              "historicValue": 92,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.6271750806165667,
+                0.3587267836895482
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CA",
+              "value": 44,
+              "historicValue": 25,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.4267339538975873,
+                0.5926029227259427
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "MX",
+              "value": 2,
+              "historicValue": 2,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.415975840112463,
+                0.43317407882971154
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "SE",
+              "value": 18,
+              "historicValue": 34,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.3732117711599827,
+                0.39119808179856524
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "UK",
+              "value": 7,
+              "historicValue": 11,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4217145143460369,
+                0.470738258783879
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "DE",
+              "value": 3,
+              "historicValue": 4,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.6279959113950767,
+                0.584739275994016
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "FR",
+              "value": 2,
+              "historicValue": 4,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5345902255551247,
+                0.5625655735303241
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "AU",
+              "value": 17,
+              "historicValue": 36,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.572177490411311,
+                0.6067377373104096
+              ],
+              "continentRelatedIndex": 0
+            }
+          ],
+          "topicAvg": 24
+        },
+        "DT": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "OCE",
+              "value": 34,
+              "historicValue": 56,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 8,
+              "historicValue": 9,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "EUR",
+              "value": 5,
+              "historicValue": 7,
+              "countriesCount": 5,
+              "historicCountriesCount": 5
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 87,
+              "historicValue": 100,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.6497671911316417,
+                0.4492607915254127
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "AU",
+              "value": 42,
+              "historicValue": 77,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.4043677583200709,
+                0.5799380347755182
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CA",
+              "value": 18,
+              "historicValue": 23,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.43342688849148986,
+                0.3710537262617088
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "MX",
+              "value": 1,
+              "historicValue": 3,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.5894566374416539,
+                0.635757308539334
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "SE",
+              "value": 18,
+              "historicValue": 30,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5326042951142622,
+                0.6472275972762478
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "UK",
+              "value": 8,
+              "historicValue": 14,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.44037786004277296,
+                0.46552260729108813
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "DE",
+              "value": 4,
+              "historicValue": 5,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4847213072937714,
+                0.332789116734034
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "FR",
+              "value": 2,
+              "historicValue": 2,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5117385991742966,
+                0.5909726451746388
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "NL",
+              "value": 2,
+              "historicValue": 8,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.45307833960699784,
+                0.42759243712204625
+              ],
+              "continentRelatedIndex": 4
+            }
+          ],
+          "topicAvg": 20
+        }
+      }
+    },
+    {
+      "slug": "trans_pacific_partnership",
+      "data": {
+        "HC": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 14,
+              "historicValue": 18,
+              "countriesCount": 4,
+              "historicCountriesCount": 4
+            },
+            {
+              "geoCode": "AME",
+              "value": 12,
+              "historicValue": 19,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "OCE",
+              "value": 8,
+              "historicValue": 39,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 5,
+              "historicValue": 8,
+              "countriesCount": 3,
+              "historicCountriesCount": 2
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "SG",
+              "value": 100,
+              "historicValue": 87,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.6468371485550994,
+                0.3474149539180199
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "JP",
+              "value": 28,
+              "historicValue": 37,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.6880856623783452,
+                0.6203848136395732
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "VN",
+              "value": 10,
+              "historicValue": 15,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.5940324923362285,
+                0.6015957866993055
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "IN",
+              "value": 1,
+              "historicValue": 2,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.45908961034125645,
+                0.4573822825301227
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "US",
+              "value": 94,
+              "historicValue": 85,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.37090829567486583,
+                0.6480821746661615
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "CA",
+              "value": 29,
+              "historicValue": 36,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.3691052717359069,
+                0.32402752673879615
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "MX",
+              "value": 2,
+              "historicValue": 8,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.4350589368053757,
+                0.44745621939838937
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "AU",
+              "value": 10,
+              "historicValue": 47,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.4136786939969886,
+                0.4107343336683736
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "UK",
+              "value": 8,
+              "historicValue": 15,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5947424183923816,
+                0.657472294754415
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "DE",
+              "value": 8,
+              "historicValue": 2,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.3595211607171001,
+                0.4243458817486287
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "FR",
+              "value": 4,
+              "historicValue": 0,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5685207272483792,
+                0.5609720135106285
+              ],
+              "continentRelatedIndex": 2
+            }
+          ],
+          "topicAvg": 27
+        },
+        "DT": {
+          "continentsData": [
+            {
+              "geoCode": "USA",
+              "value": 100,
+              "historicValue": 100,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "AME",
+              "value": 17,
+              "historicValue": 26,
+              "countriesCount": 2,
+              "historicCountriesCount": 2
+            },
+            {
+              "geoCode": "ASIA",
+              "value": 14,
+              "historicValue": 18,
+              "countriesCount": 4,
+              "historicCountriesCount": 4
+            },
+            {
+              "geoCode": "OCE",
+              "value": 9,
+              "historicValue": 32,
+              "countriesCount": 1,
+              "historicCountriesCount": 1
+            },
+            {
+              "geoCode": "EUR",
+              "value": 5,
+              "historicValue": 5,
+              "countriesCount": 3,
+              "historicCountriesCount": 3
+            }
+          ],
+          "countriesData": [
+            {
+              "geoCode": "US",
+              "value": 66,
+              "historicValue": 67,
+              "continentGeoCode": "USA",
+              "blobPosition": [
+                0.6149773714983677,
+                0.424580025685997
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "SG",
+              "value": 63,
+              "historicValue": 100,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.38890527705872857,
+                0.5864187762734854
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "JP",
+              "value": 21,
+              "historicValue": 18,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.5626983350079862,
+                0.6581091425101097
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "VN",
+              "value": 5,
+              "historicValue": 8,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.6387232844445534,
+                0.5848530839667243
+              ],
+              "continentRelatedIndex": 2
+            },
+            {
+              "geoCode": "IN",
+              "value": 2,
+              "historicValue": 3,
+              "continentGeoCode": "ASIA",
+              "blobPosition": [
+                0.4621420938986995,
+                0.45554054097183877
+              ],
+              "continentRelatedIndex": 3
+            },
+            {
+              "geoCode": "CA",
+              "value": 26,
+              "historicValue": 33,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.3639046071853703,
+                0.3899686093817506
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "MX",
+              "value": 5,
+              "historicValue": 13,
+              "continentGeoCode": "AME",
+              "blobPosition": [
+                0.46086005782530215,
+                0.37455943724379404
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "AU",
+              "value": 8,
+              "historicValue": 30,
+              "continentGeoCode": "OCE",
+              "blobPosition": [
+                0.44721469528063634,
+                0.4184237676991088
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "FR",
+              "value": 7,
+              "historicValue": 1,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5486161038801703,
+                0.5767612573646482
+              ],
+              "continentRelatedIndex": 0
+            },
+            {
+              "geoCode": "UK",
+              "value": 7,
+              "historicValue": 10,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.5949481342159878,
+                0.5892956301067417
+              ],
+              "continentRelatedIndex": 1
+            },
+            {
+              "geoCode": "DE",
+              "value": 1,
+              "historicValue": 3,
+              "continentGeoCode": "EUR",
+              "blobPosition": [
+                0.4170056022341089,
+                0.44146230290110366
+              ],
+              "continentRelatedIndex": 2
+            }
+          ],
+          "topicAvg": 19
+        }
+      }
+    }
+  ]
+}

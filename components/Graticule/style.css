@@ -1,0 +1,7 @@
+.graticule {
+  opacity: .5;
+
+  fill: none;
+  stroke: white;
+  stroke-width: .5;
+}

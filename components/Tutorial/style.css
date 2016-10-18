@@ -1,0 +1,425 @@
+.tutorial {
+  composes: dialog from 'common.css';
+
+  font-size: 13px;
+
+  position: absolute;
+  z-index: 4;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(33, 42, 53, .9);
+}
+
+.hide {
+  z-index: -1;
+
+  display: none;
+}
+
+.tutorialQuote {
+  width: 60%;
+  height: 65px;
+
+  text-align: center;
+
+  border: 2px solid white;
+  border-radius: 5px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.tutorialCandidate {
+  position: absolute;
+  top: 15px;
+
+  width: 100%;
+  height: 65px;
+  padding: 10px;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tutorialCandidateCircleContainer {
+  position: relative;
+
+  width: 60px;
+  height: 60px;
+
+  border: 0;
+  border-radius: 5px;
+}
+
+.tutorialCandidateCircle {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+
+  width: 10px;
+  height: 10px;
+  margin-left: -4px;
+
+  border-radius: 6px;
+  background-color: white;
+}
+
+.tutorialCandidateLineLeft {
+  position: absolute;
+  top: 15px;
+  left: 50%;
+
+  width: 1px;
+  height: 100px;
+
+  border: 1px solid white;
+}
+
+.tutorialCandidateLineRight {
+  composes: tutorialCandidateLineLeft;
+}
+
+.tutorialHorizontalCandidateLineLeft {
+  position: absolute;
+  top: 33px;
+  left: 50%;
+
+  width: 50px;
+  height: 1px;
+
+  border: 1px solid white;
+}
+
+.tutorialHorizontalCandidateLineRight {
+  composes: tutorialHorizontalCandidateLineLeft;
+
+  left: calc(50% - 48px);
+}
+
+.tutorialBubblesText {
+  position: absolute;
+  top: 15px;
+  left: 49px;
+  left: 50%;
+
+  width: 140px;
+  margin-left: -70px;
+
+  text-align: center;
+}
+
+.tutorialBottom {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+
+  width: 100%;
+  height: 40px;
+}
+.tutorialFlagContainer {
+  position: relative;
+
+  width: 100%;
+  padding: 0 10px;
+
+  text-align: center;
+
+  align-items: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tutorialFlag {
+  composes: title from 'common.css';
+
+  font-size: 12px;
+
+  position: relative;
+
+  width: 20%;
+  height: 40px;
+
+  border: 2px solid white;
+  border-radius: 20px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.tutorialFlagLine {
+  width: 30%;
+  height: 1px;
+
+  border: 1px solid white;
+}
+
+.tutorialFlagText {
+  font-size: 12px;
+
+  width: 50%;
+  height: 1px;
+  padding-left: 5px;
+
+  align-items: center;
+}
+
+.tutorialBlobCircle {
+  position: absolute;
+  top: 150px;
+
+  width: 100%;
+  height: 200px;
+}
+
+.tutorialBlobCircleContainer {
+  width: 65%;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.tutorialBlobLineContainer {
+  flex-direction: column;
+
+  width: 35%;
+  padding-left: 40px;
+
+  text-align: center;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.tutorialCircle {
+  width: 180px;
+  height: 180px;
+
+  border: 2px solid white;
+  border-radius: 180px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.tutorialBlobCircleText {
+  width: 120px;
+
+  text-align: center;
+}
+
+.tutorialBlobLineText {
+  margin: 20px 0;
+}
+
+.tutorialBlobLineArrowTop {
+  width: 0;
+  height: 0;
+
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid white;
+  border-left: 5px solid transparent;
+}
+
+.tutorialBlobLineArrowBottom {
+  composes: tutorialBlobLineArrowTop;
+
+  border-top: 5px solid white;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+.tutorialBlobLineTop {
+  top: 0;
+
+  width: 1px;
+  height: 60px;
+
+  border: 1px solid white;
+}
+
+.tutorialBlobLineBottom {
+  composes: tutorialBlobLineTop;
+}
+
+.tutorialButton {
+  composes: title from 'common.css';
+
+  position: absolute;
+  bottom: 75px;
+  left: 50%;
+
+  width: 90px;
+  margin-left: -50px;
+  padding: 10px;
+
+  cursor: pointer;
+
+  opacity: .8;
+  color: rgba(33, 42, 53, .9);
+  border-radius: 30px;
+  background-color: #05f105;
+
+  justify-content: center;
+}
+
+.tutorialButton:hover {
+  transition: .5s opacity;
+
+  opacity: 1;
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait) {
+  .tutorial {
+    composes: dialog from 'common.css';
+
+    font-size: 18px;
+  }
+  .tutorialBubblesText {
+    width: 280px;
+    margin-left: -140px;
+  }
+  .tutorialBlobCircle {
+    top: 420px;
+  }
+  .tutorialButton {
+    font-size: 18px;
+
+    width: 160px;
+    margin-left: -80px;
+  }
+  .tutorialCandidate {
+    left: 5%;
+
+    width: 90%;
+  }
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape) {
+  .tutorial {
+    composes: dialog from 'common.css';
+
+    font-size: 18px;
+  }
+  .tutorialBubblesText {
+    width: 280px;
+    margin-left: -140px;
+  }
+  .tutorialBlobCircle {
+    top: 250px;
+    bottom: 250px;
+
+    height: auto;
+  }
+  .tutorialBlobCircleContainer, .tutorialBlobLineContainer {
+    width: 50%;
+  }
+  .tutorialButton {
+    font-size: 26px;
+
+    bottom: 150px;
+
+    width: 160px;
+    margin-left: -80px;
+  }
+  .tutorialCandidate {
+    top: 75px;
+    left: 14%;
+
+    width: 72%;
+  }
+  .tutorialCandidateCircleBottom {
+    composes: tutorialCandidateCircle;
+
+    right: 25%;
+    left: inherit;
+  }
+  .tutorialFlagText {
+    font-size: 18px;
+
+    width: 75%;
+    padding-right: 20px;
+
+    justify-content: flex-end;
+  }
+  .tutorialFlag {
+    width: 100px;
+    height: 30px;
+  }
+  .tutorialFlagLine {
+    width: calc(25% - 100px);
+  }
+  .tutorialButton {
+    font-size: 16px;
+  }
+}
+
+
+@media only screen
+  and (min-device-width: 1024px) {
+  .tutorial {
+    composes: dialog from 'common.css';
+
+    font-size: 18px;
+  }
+  .tutorialBubblesText {
+    width: 280px;
+    margin-left: -140px;
+  }
+  .tutorialBlobCircle {
+    top: 250px;
+    bottom: 250px;
+
+    height: auto;
+  }
+  .tutorialBlobCircleContainer, .tutorialBlobLineContainer {
+    width: 50%;
+  }
+  .tutorialButton {
+    font-size: 26px;
+
+    bottom: 150px;
+
+    width: 160px;
+    margin-left: -80px;
+  }
+  .tutorialCandidate {
+    top: 75px;
+    left: 14%;
+
+    width: 72%;
+  }
+  .tutorialCandidateCircleBottom {
+    composes: tutorialCandidateCircle;
+
+    right: 25%;
+    left: inherit;
+  }
+  .tutorialFlagText {
+    font-size: 18px;
+
+    width: 75%;
+    padding-right: 20px;
+
+    justify-content: flex-end;
+  }
+  .tutorialFlag {
+    width: 100px;
+    height: 30px;
+  }
+  .tutorialFlagLine {
+    width: calc(25% - 100px);
+  }
+  .tutorialButton {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,14 @@
+.arrowIcon {
+  width: 20px;
+  height: 50px;
+
+  cursor: pointer;
+  transition: .3s opacity;
+
+  opacity: .5;
+}
+.arrowIcon:hover {
+  transition: .3s opacity;
+
+  opacity: 1;
+}

@@ -1,0 +1,122 @@
+{
+  "menu_topics": {
+    "en": "Search interest for",
+    "it": "Temi"
+  },
+  "menu_others": {
+    "en": "Others",
+    "it": "Altro"
+  },
+  "menu_about": {
+    "en": "About",
+    "it": "Info"
+  },
+  "menu_contact": {
+    "en": "Contact",
+    "it": "Contatti"
+  },
+  "menu_help": {
+    "en": "Help",
+    "it": "Aiuto"
+  },
+  "charts_candidate_average": {
+    "en": "Candidate (Average)",
+    "it": "Candidato (Media)"
+  },
+  "topic_slug_candidates": {
+    "en": "Candidates",
+    "it": "Candidati"
+  },
+  "topic_slug_all_topics": {
+    "en": "All Topics",
+    "it": "Tutti i temi"
+  },
+  "topic_slug_abortion": {
+    "en": "Abortion",
+    "it": "Aborto"
+  },
+  "topic_slug_brexit": {
+    "en": "Brexit",
+    "it": "Brexit"
+  },
+  "topic_slug_cuba": {
+    "en": "Cuba",
+    "it": "Cuba"
+  },
+  "topic_slug_economy": {
+    "en": "Economy",
+    "it": "Economia"
+  },
+  "topic_slug_foreign_policy": {
+    "en": "Foreign Policy",
+    "it": "Politica estera"
+  },
+  "topic_slug_global_warming": {
+    "en": "Global Warming",
+    "it": "Surriscaldamento globale"
+  },
+  "topic_slug_gun_control": {
+    "en": "Gun Control",
+    "it": "Controllo delle armi"
+  },
+  "topic_slug_health_care": {
+    "en": "Health Care",
+    "it": "Sanità"
+  },
+  "topic_slug_isis": {
+    "en": "ISIS",
+    "it": "ISIS"
+  },
+  "topic_slug_racism": {
+    "en": "Racism",
+    "it": "Razzismo"
+  },
+  "topic_slug_refugees": {
+    "en": "Refugees",
+    "it": "Profughi"
+  },
+  "topic_slug_same_sex_marriage": {
+    "en": "Same Sex Marriage",
+    "it": "Matrimoni Omosessuali"
+  },
+  "topic_slug_trans_pacific_partnership": {
+    "en": "TPP",
+    "it": "TPP"
+  },
+  "topic_slug_black_lives_matter": {
+    "en": "Black Lives Matter",
+    "it": "Black Lives Matter"
+  },
+  "topic_slug_oil": {
+    "en": "Oil",
+    "it": "Olio"
+  },
+  "topic_slug_security": {
+    "en": "Security",
+    "it": "Sicurezza"
+  },
+  "view_search_interest_on": {
+    "en": "Search interest on",
+    "it": "Interesse sulla ricerca di"
+  },
+  "view_search_interest_drops": {
+    "en": "Search interest in the last 24 hrs",
+    "it": "Interesse sulla ricerca nelle ultime 24 ore"
+  },
+  "view_countries": {
+    "en": "countries",
+    "it": "paesi"
+  },
+  "view_world": {
+    "en": "world region",
+    "it": "mondo"
+  },
+  "general_and": {
+    "en": "and",
+    "it": "e"
+  },
+  "general_by": {
+    "en": "by",
+    "it": "per"
+  }
+}

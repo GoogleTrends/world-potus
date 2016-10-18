@@ -1,0 +1,12 @@
+.label {
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+
+  transform: rotate(-90deg);
+  letter-spacing: .03rem;
+  text-transform: uppercase;
+
+  opacity: .8;
+
+  fill: white;
+}

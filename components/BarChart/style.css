@@ -1,0 +1,135 @@
+.backgroundDT:hover {
+  transition: .7s background-color;
+
+  background-color: #fc5457;
+}
+.backgroundHC:hover {
+  transition: .7s background-color;
+
+  background-color: #488dfb;
+}
+
+.backgroundDT, .backgroundHC {
+  cursor: pointer;
+}
+
+.backgroundHC:hover .barChartText, .backgroundDT:hover .barChartText {
+  color: white;
+}
+
+.backgroundHC:hover .barChartIcon, .backgroundDT:hover .barChartIcon {
+  color: white;
+  border-color: white;
+}
+
+.backgroundHC:hover .barChartDot, .backgroundDT:hover .barChartDot {
+  background-color: white;
+}
+
+.hoverable {
+  position: relative;
+
+  width: 100%;
+  width: 100%;
+  height: 55px;
+  min-height: 55px;
+  padding: 10px 0 10px 0;
+}
+
+.barChart {
+  position: absolute;
+  top: 28px;
+  left: 48px;
+
+  height: 12px;
+
+  border-radius: 10px;
+}
+
+.barChartLine {
+  position: absolute;
+  top: 20px;
+  left: 48px;
+
+  width: calc(100% - 75px);
+  height: 30px;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.barChartDot {
+  width: 4px;
+  height: 4px;
+
+  border-radius: 6px;
+  background-color: #cccccc;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.hoverable:hover .detailsText, .hoverable:hover .barChartTextHover {
+  fill: white;
+}
+
+.detailsText {
+  composes: dialog from 'common.css';
+
+  font-size: 11px;
+
+  pointer-events: none;
+
+  fill: #bdbdbd;
+}
+.barChartText {
+  composes: dialog from 'common.css';
+
+  font-size: 12px;
+
+  position: absolute;
+  top: 28px;
+  left: 20px;
+
+  height: 30px;
+
+  text-transform: uppercase;
+
+  opacity: .7;
+  color: #2b3b55;
+}
+.barChartTextLabel {
+  composes: barChartText;
+
+  top: 10px;
+}
+.barChartTextHover {
+  composes: barChartText;
+}
+.barChartIcon {
+  font-size: 13px;
+  font-weight: bold;
+
+  position: absolute;
+  top: 5px;
+  top: 26px;
+  right: 5px;
+
+  width: 16px;
+  height: 16px;
+  padding: 1px;
+
+  color: #cccccc;
+  border-radius: 20px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.barChart {
+  transition: 1s width;
+  pointer-events: none;
+
+  stroke: #000000;
+  stroke-width: .2;
+}

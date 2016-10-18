@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="473 563 11 27" enable-background="new 473 563 11 27" xml:space="preserve">
+<title>arrow-state-01</title>
+<g enable-background="new    ">
+	<g>
+		<defs>
+			<rect id="SVGID_13_" x="473" y="580" width="11" height="10"/>
+		</defs>
+		<clipPath id="SVGID_1_">
+			<use xlink:href="#SVGID_13_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_1_)">
+			<defs>
+				<rect id="SVGID_15_" x="473.4" y="580.8" width="10.3" height="8.9"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_15_"  overflow="visible"/>
+			</clipPath>
+			<path clip-path="url(#SVGID_2_)" fill="#112340" d="M483.6,589.7c-2-2.4-3.8-5-5.5-7.7h0.8c-1.7,2.6-3.5,5.3-5.5,7.7
+				c1.4-2.9,3-5.6,4.7-8.2l0.4-0.7l0.4,0.7C480.6,584.1,482.3,586.8,483.6,589.7"/>
+		</g>
+	</g>
+</g>
+<polyline fill="none" points="473.4,563.7 473.4,589.7 483.6,589.7 483.6,563.7 "/>
+<g opacity="0.55" enable-background="new    ">
+	<g>
+		<defs>
+			<rect id="SVGID_17_" x="473" y="572" width="11" height="10"/>
+		</defs>
+		<clipPath id="SVGID_3_">
+			<use xlink:href="#SVGID_17_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_3_)">
+			<defs>
+				<rect id="SVGID_19_" x="473.4" y="572.2" width="10.3" height="8.9"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_19_"  overflow="visible"/>
+			</clipPath>
+			<g clip-path="url(#SVGID_4_)" enable-background="new    ">
+				<g>
+					<defs>
+						<rect id="SVGID_21_" x="473" y="572" width="11" height="10"/>
+					</defs>
+					<clipPath id="SVGID_5_">
+						<use xlink:href="#SVGID_21_"  overflow="visible"/>
+					</clipPath>
+					<g clip-path="url(#SVGID_5_)">
+						<defs>
+							<rect id="SVGID_23_" x="473.4" y="572.2" width="10.3" height="8.9"/>
+						</defs>
+						<clipPath id="SVGID_6_">
+							<use xlink:href="#SVGID_23_"  overflow="visible"/>
+						</clipPath>
+						<path clip-path="url(#SVGID_6_)" fill="#112340" d="M483.6,581.1c-2-2.4-3.8-5-5.5-7.7h0.8c-1.7,2.6-3.5,5.3-5.5,7.7
+							c1.4-2.9,3-5.6,4.7-8.2l0.4-0.7l0.4,0.7C480.6,575.6,482.3,578.3,483.6,581.1"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<polyline fill="none" points="473.4,563.7 473.4,589.7 483.6,589.7 483.6,563.7 "/>
+<polyline fill="none" points="473.4,563.7 473.4,572.6 483.6,572.6 483.6,563.7 "/>
+<polyline fill="none" points="473,563 473,573 484,573 484,563 "/>
+<polyline fill="none" points="473.4,563.7 473.4,589.7 483.6,589.7 483.6,563.7 "/>
+<polyline fill="none" points="473,563 473,590 484,590 484,563 "/>
+<path fill="#E7E9EB" d="M483.6,572.6c-2-2.4-3.8-5-5.5-7.7h0.8c-1.7,2.6-3.5,5.3-5.5,7.7c1.4-2.9,3-5.6,4.7-8.2l0.4-0.7l0.4,0.7
+	C480.6,567,482.2,569.7,483.6,572.6"/>
+</svg>

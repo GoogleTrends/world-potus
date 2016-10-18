@@ -1,0 +1,20 @@
+.candidateLink {
+  transition: color 200ms ease-out;
+  text-decoration: none;
+
+  color: #488dfb;
+}
+
+.candidateLink:hover {
+  color: #fc5457;
+}
+
+.candidateLinkIcon {
+  transition: fill 200ms ease-out;
+
+  fill: #488dfb;
+}
+
+.candidateLink:hover .candidateLinkIcon {
+  fill: #fc5457;
+}

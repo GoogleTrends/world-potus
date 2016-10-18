@@ -1,0 +1,224 @@
+:root {
+  --color_dark_blue: #112340;
+}
+
+.tooltipSwipe {
+  position: absolute;
+  top: 160px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.toolTip {
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 5s ease-in-out;
+  position: relative;
+  z-index: 3;
+}
+
+.toolTipVisible {
+  opacity: 1;
+}
+
+.toolTipBlock {
+  display: inline-block;
+  background: var(--color_dark_blue);
+  border-radius: 4px;
+  text-transform: uppercase;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  position: relative;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  &: before{
+    content:"";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: -5px;
+    height: 40px;
+    border-radius: 4px;
+    line-height: 40px;
+    padding: 0 20px;
+    background: rgba(0, 0, 0, 0.25);
+  }
+}
+
+.tooltipSwipe-1 {
+  composes: tooltipSwipe;
+  top: 30%;
+}
+
+.tooltipSwipe-2 {
+  composes: tooltipSwipe;
+  top: 60%;
+}
+
+.tooltipSwipe-3 {
+  composes: tooltipSwipe;
+  top: 85%;
+}
+
+.tooltipSwipe-4 {
+  composes: tooltipSwipe;
+  top: 15%;
+}
+
+.cssArrrowLeft {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #112340;
+  position: absolute;
+  left: -7px;
+  top: 12px;
+}
+
+.cssArrrowRight {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid #112340;
+  position: absolute;
+  right: -7px;
+  top: 12px;
+}
+
+.cssArrrowUp {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #112340;
+  position: absolute;
+  left: 50%;
+  top: -8px;
+}
+
+.cssArrrowDown {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #112340;
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+}
+
+.arrow {
+  line-height: 40px;
+  color: var(--color_dark_blue);
+  display: inline-block;
+  width: 40px;
+  letter-spacing: -2px;
+  height: 10px;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+.arrowLeft {
+  composes: arrow;
+  animation-name: slideLeft;
+  text-align: right;
+  padding-right: 10px;
+  margin: 0 4px;
+}
+
+.arrowRight {
+  composes: arrow;
+  animation-name: slideRight;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.arrowLeftIcon, .arrowRightIcon {
+  margin: 0 2px;
+}
+
+.arrowLeftIcon:nth-child(1) {
+  opacity: 0.3
+}
+
+.arrowLeftIcon:nth-child(2) {
+  opacity: 0.5
+}
+
+.arrowLeftIcon:nth-child(3) {
+  opacity: 1
+}
+
+.arrowRightIcon:nth-child(1) {
+  opacity: 1
+}
+
+.arrowRightIcon:nth-child(2) {
+  opacity: 0.5
+}
+
+.arrowRightIcon:nth-child(3) {
+  opacity: 0.3
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(40%);
+  }
+
+  50% {
+    transform: translateX(-8%);
+  }
+
+  65% {
+    transform: translateX(4%);
+  }
+
+  80% {
+    transform: translateX(-4%);
+  }
+
+  95% {
+    transform: translateX(2%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-40%);
+  }
+
+  50% {
+    transform: translateX(8%);
+  }
+
+  65% {
+    transform: translateX(-4%);
+  }
+
+  80% {
+    transform: translateX(4%);
+  }
+
+  95% {
+    transform: translateX(-2%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}

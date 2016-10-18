@@ -1,0 +1,6 @@
+.line {
+  opacity: .8;
+
+  stroke: white;
+  stroke-width: .5;
+}

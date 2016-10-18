@@ -1,0 +1,70 @@
+.view {
+  display: flex;
+  overflow: hidden;
+
+  width: 100vw;
+  height: 100%;
+
+  color: rgba(255, 255, 255, .8);
+}
+
+.main {
+  position: fixed;
+
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+
+  justify-content: space-between;
+}
+
+.blur {
+  filter: blur(5px);
+}
+
+.explainingText {
+  composes: dialog from 'common.css';
+
+  font-size: 10px;
+
+  position: absolute;
+  bottom: 85px;
+  left: 50%;
+
+  width: 300px;
+  margin-left: -150px;
+  padding: 0 15px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  opacity: .8;
+
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.explainingTextDesktop {
+  composes: explainingText;
+
+  bottom: 60px;
+}
+
+.DT {
+  background-color: #fc5457;
+}
+.HC {
+  background-color: #488dfb;
+}
+
+@media only screen
+and (min-width : 1024px) {
+  .main {
+    position: relative;
+
+    width: 60%;
+  }
+}

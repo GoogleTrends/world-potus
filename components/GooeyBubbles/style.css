@@ -1,0 +1,24 @@
+.gooeyBubbles {
+  position: relative;
+
+  display: flex;
+
+  height: calc(100% - 228px);
+
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gooeyBubblesRelative {
+  height: 100px;
+}
+
+.gooeyBubblesCanvas {
+  position: relative;
+  z-index: 3;
+
+  display: flex;
+
+  cursor: pointer;
+}

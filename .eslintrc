@@ -1,0 +1,37 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "standard",
+    "react",
+  ],
+  "extends": [
+    "standard",
+    "plugin:react/recommended",
+  ],
+  "rules": {
+    "comma-dangle": [1, "always-multiline"], // if transpiled!
+    "space-before-function-paren": [1, {"anonymous": "always", "named": "never"}],
+    "key-spacing": [1, {"beforeColon": false, "afterColon": true, "mode": "minimum"}],
+    "quotes": 0,
+    "object-curly-spacing": [0, "always"], // TODO
+    "block-spacing": [0, "always"], // TODO
+    "no-multi-spaces": [1, { "exceptions": {
+      "Property":             true,
+      "ObjectExpression":     true,
+      "ObjectTypeProperty":   true,
+      "ImportDeclaration":    true,
+      "VariableDeclarator":   true,
+      "BinaryExpression":     true,
+    } }],
+    "padded-blocks": [1, {"blocks": "never", "switches": "never", "classes": "never"}],
+    "react/jsx-quotes": 0,
+    "react/sort-comp": 1,
+    "react/no-unused-prop-types": 2,
+    "react/jsx-no-bind": [2, {
+      "ignoreRefs": true,
+    }],
+    "react/jsx-indent": [1, 2],
+    "react/jsx-indent-props": [1, 2],
+    "react/jsx-wrap-multilines": 1,
+  },
+}

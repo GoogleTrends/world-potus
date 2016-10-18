@@ -1,0 +1,17 @@
+.cls1 {
+  opacity: .1;
+
+  fill: #ffffff;
+  stroke-width: 1.03px;
+}
+
+.cls1, .cls2 {
+  stroke: #ffffff;
+  stroke-miterlimit: 10;
+}
+
+.cls2 {
+  opacity: .5;
+
+  fill: none;
+}

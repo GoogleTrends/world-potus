@@ -1,0 +1,348 @@
+.landing
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    color: black;
+    background-color: #112340;
+
+    justify-content: center;
+    composes: dialog from 'common.css';
+}
+.footer
+{
+    font-size: 14px;
+
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    left: 0;
+
+    display: flex;
+
+    opacity: 0;
+    color: rgb(36, 255, 133);
+
+    align-items: center;
+    justify-content: center;
+    composes: title from 'common.css';
+}
+.footerAnimate
+{
+    transition: 4s opacity;
+    transition-delay: 1s;
+
+    opacity: 1;
+
+    composes: footer;
+}
+.title
+{
+    position: relative;
+
+    display: flex;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+.container
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 5%;
+
+    display: flex;
+
+    width: 90%;
+    padding: 0 5%;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.worldPotus
+{
+    width: 412px;
+    height: 35px;
+
+    background-image: url('/img/title.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.description canvas
+{
+    bottom: 12%;
+
+    width: 60%;
+}
+.selection
+{
+    font-size: 12px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+    text-align: center;
+
+    color: white;
+
+    justify-content: center;
+}
+.selectionTextDesktop .candidate
+{
+    display: flex;
+
+    width: 50%;
+
+    text-align: center;
+
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.candidate
+{
+    position: relative;
+
+    cursor: pointer;
+    width: 120px;
+    opacity: 0;
+}
+
+.candidateAnimated
+{
+    transition: 4s opacity;
+    transition-delay: 1s;
+
+    opacity: 1;
+
+    composes: candidate;
+}
+.circle
+{
+    position: relative;
+    z-index: 3;
+
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 120px;
+}
+.circle.trump
+{
+    box-shadow: 0 0 0 4px #fc5457;
+}
+.circle.clinton
+{
+    box-shadow: 0 0 0 4px #488dfb;
+}
+.DT
+{
+    background-image: url('/img/trump.png');
+}
+.HC
+{
+    background-image: url('/img/clinton.png');
+}
+.selectionText
+{
+    font-size: 10px;
+    font-weight: 500;
+
+    display: flex;
+
+    box-sizing: border-box;
+    margin: 60px 0;
+    padding: 0 5px;
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    justify-content: center;
+    align-items: center;
+    composes: title from 'common.css';
+}
+.logo
+{
+    width: 160px;
+    height: 30px;
+    margin: 0 20px;
+    align-items: center;
+    fill: #ccc;
+}
+.selectionTextDesktop
+{
+    font-size: 14px;
+
+    bottom: 20px;
+
+    color: #5bfc7e;
+
+    composes: selectionText;
+}
+.description
+{
+    font-size: 18px;
+    font-weight: 400;
+
+    margin: 0 auto;
+
+    text-align: center;
+    opacity: 0;
+    color: #ccc;
+}
+
+.descriptionContainer
+{
+    flex-direction: column;
+
+    margin: 60px 0;
+}
+
+.descriptionAnimated
+{
+    transition: 4s opacity;
+    transition-delay: 1s;
+
+    opacity: 0.8;
+
+    composes: description;
+}
+
+.link {
+  margin: 10px 0;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  opacity: 0;
+}
+
+.linkAnimated
+{
+    transition: 4s opacity;
+    transition-delay: 1s;
+
+    opacity: 0.8;
+
+    composes: link;
+}
+
+.link:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)
+{
+    .description canvas
+    {
+        display: none;
+    }
+}
+
+@keyframes circleAnimationKeyframes
+{
+    0%
+    {width: 1px;
+        height: 1px; opacity: 0;
+    } /* Dirty Safari fix trick */
+    1%
+    {
+        width: 100px;
+        height: 100px;
+
+        opacity: 1;
+    }
+    99%
+    {
+        width: 300px;
+        height: 300px;
+
+        opacity: 0;
+    }
+    100%
+    {width: 1px;
+        height: 1px; opacity: 0;
+    } /* Dirty Safari fix trick */
+}
+
+.circleAnimation
+{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+
+    width: 100px;
+    height: 100px;
+
+    transform: translate(-50%, -50%);
+    animation-name: circleAnimationKeyframes;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+    opacity: 0;
+    border: 3px solid transparent;
+    border-radius: 100%;
+}
+
+.circleAnimationClinton
+{
+    border-color: #488dfb;
+
+    composes: circleAnimation;
+}
+.candidate:hover .circleAnimationClinton
+{
+    background-color: #488dfb;
+}
+
+.circleAnimationTrump
+{
+    border-color: #fc5457;
+
+    composes: circleAnimation;
+}
+.candidate:hover .circleAnimationTrump
+{
+    background-color: #fc5457;
+}
+
+
+
+.circleAnimation__1
+{
+    animation-delay: 0s;
+}
+
+.circleAnimation__2
+{
+    animation-delay: 1s;
+}
+
+.circleAnimation__3
+{
+    animation-delay: 2s;
+}
+
+.circleAnimation__4
+{
+    animation-delay: 3s;
+}
