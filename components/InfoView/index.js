@@ -33,6 +33,7 @@ export default class InfoView extends React.Component {
 
   componentDidMount() {
     const hammer = new Hammer(this.dom.container)
+    // Not using isTouch because there is no need to swipe pages on desktop
     hammer.set({ enable: !this.props.desktop })
     hammer.get('swipe').set({ direction: Hammer.DIRECTION_HORIZONTAL })
 

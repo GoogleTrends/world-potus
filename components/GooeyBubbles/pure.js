@@ -1,12 +1,15 @@
 import React from 'react'
 import Hammer from 'hammerjs'
-
 import { exitNode, updateNodes } from './updateNodes'
 import AlphaContrastRenderer from './AlphaContrastRenderer'
 import { createBubble } from './bubble'
 import createCanvas, { sizeCanvas, clearCanvas } from './create-canvas'
 import { animationLoop, stepper } from './animation'
 import styles from './style.css'
+import { isTouch } from 'utils'
+import strictProps, { isOptional } from 'strictProps'
+
+const IS_TOUCH = isTouch()
 
 const BLUR_RADIUS = 0.06
 
@@ -131,7 +134,6 @@ export default class GooeyBubbles extends React.Component {
       setBubblesPanEvent,
       onPrevTopic,
       onNextTopic,
-      isMobi,
       onPrevVisualization,
       onNextVisualization,
     } = this.props
@@ -142,7 +144,7 @@ export default class GooeyBubbles extends React.Component {
     let prevViewTransition = false
 
     const hammer = new Hammer(this.dom.container)
-    hammer.get('pan').set({ enable: isMobi, direction: Hammer.DIRECTION_ALL })
+    hammer.get('pan').set({ enable: IS_TOUCH, direction: Hammer.DIRECTION_ALL })
 
     const PAN_TRIGGER_THRESHOLD = 90
 
@@ -314,18 +316,17 @@ export default class GooeyBubbles extends React.Component {
   }
 }
 
-GooeyBubbles.propTypes = {
-  geographicData: React.PropTypes.array.isRequired,
-  resized: React.PropTypes.bool.isRequired,
-  visualizationType: React.PropTypes.string.isRequired,
+GooeyBubbles.propTypes = strictProps({
+  geographicData: React.PropTypes.array,
+  resized: React.PropTypes.bool,
+  visualizationType: React.PropTypes.string,
   expanded: React.PropTypes.bool,
   onExpandBubbles: React.PropTypes.func,
   setBubblesPanEvent: React.PropTypes.oneOfType([React.PropTypes.func, React.PropTypes.bool]),
-  children: React.PropTypes.node,
-  onPrevTopic: React.PropTypes.func.isRequired,
-  onNextTopic: React.PropTypes.func.isRequired,
-  onPrevVisualization: React.PropTypes.func.isRequired,
-  onNextVisualization: React.PropTypes.func.isRequired,
-  isMobi: React.PropTypes.bool.isRequired,
-  usDataEnabled: React.PropTypes.bool.isRequired,
-}
+  children: React.PropTypes.node::isOptional,
+  onPrevTopic: React.PropTypes.func,
+  onNextTopic: React.PropTypes.func,
+  onPrevVisualization: React.PropTypes.func,
+  onNextVisualization: React.PropTypes.func,
+  usDataEnabled: React.PropTypes.bool,
+})

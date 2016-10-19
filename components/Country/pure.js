@@ -7,16 +7,17 @@ import InfoView from 'InfoView'
 import CountryScroll from 'CountryScroll'
 import DesktopMenu from 'DesktopMenu'
 import Quotes from 'Quotes'
+import strictProps from 'strictProps'
 
 export default class Country extends React.Component {
-  static propTypes = {
+  static propTypes = strictProps({
     candidate: React.PropTypes.string,
     desktop: React.PropTypes.bool,
     infoViewOpen: React.PropTypes.bool,
     countryCode: React.PropTypes.string,
     onToggleInfoView: React.PropTypes.func,
     onBack: React.PropTypes.func,
-  }
+  })
 
   render() {
     const {

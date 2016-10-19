@@ -6,19 +6,20 @@ import AccuratLogo from 'AccuratLogo'
 import GoogleLogo from 'GoogleLogo'
 import DesktopLegend from 'DesktopLegend'
 import getText from 'getText'
+import strictProps from 'strictProps'
 
 export default class Charts extends React.Component {
-  static propTypes = {
-    width: React.PropTypes.number.isRequired,
-    height: React.PropTypes.number.isRequired,
-    geographicData: React.PropTypes.array.isRequired,
-    expanded: React.PropTypes.bool.isRequired,
-    candidate: React.PropTypes.string.isRequired,
-    onCountryClick: React.PropTypes.func.isRequired,
-    selectedTopic: React.PropTypes.object.isRequired,
-    usDataEnabled: React.PropTypes.bool.isRequired,
+  static propTypes = strictProps({
+    width: React.PropTypes.number,
+    height: React.PropTypes.number,
+    geographicData: React.PropTypes.array,
+    expanded: React.PropTypes.bool,
+    candidate: React.PropTypes.string,
+    onCountryClick: React.PropTypes.func,
+    selectedTopic: React.PropTypes.object,
+    usDataEnabled: React.PropTypes.bool,
     country: React.PropTypes.string,
-  }
+  })
 
   render() {
     const { width, height, geographicData, expanded, candidate, onCountryClick, selectedTopic, usDataEnabled, country } = this.props

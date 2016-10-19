@@ -11,6 +11,10 @@ import Tutorial from 'Tutorial'
 import Sidebar from 'Sidebar'
 import DesktopMenu from 'DesktopMenu'
 import Charts from 'Charts'
+import { isTouch } from 'utils'
+import strictProps from 'strictProps'
+
+const IS_TOUCH = isTouch()
 
 export default class View extends React.Component {
   state = {
@@ -30,7 +34,6 @@ export default class View extends React.Component {
       desktop,
       expanded,
       infoViewOpen,
-      onChangeVisualization,
       onToggleInfoView,
       visualizationType,
     } = this.props
@@ -54,10 +57,8 @@ export default class View extends React.Component {
           <Quotes />
           <GooeyBubbles
             expanded={this.state.quotesCollapsed}
-            collapsed={this.state.quotesExpanded}
             setBubblesPanEvent={this.handleBubblesPanEvent}
             visualizationType={visualizationType}
-            onChangeVisualization={onChangeVisualization}
           >
             <Legend visualizationType={visualizationType} />
           </GooeyBubbles>
@@ -68,7 +69,9 @@ export default class View extends React.Component {
             className={desktop ? styles.explainingTextDesktop : styles.explainingText}
             style={{opacity: 1 - Math.abs(bubblesPanEventOffset.y) / 45}}
           >
-            {desktop ? 'Click' : 'Tap'} the bubbles to see the {expanded ? ' continents' : ' countries' }
+            {IS_TOUCH ? 'Tap' : 'Click'} anywhere on the bubbles
+            <br />
+            to switch to {expanded ? 'world region view' : 'country view' }
           </div>
           <BottomBar />
           <Tutorial/>
@@ -86,12 +89,11 @@ export default class View extends React.Component {
   }
 }
 
-View.propTypes = {
-  visualizationType: React.PropTypes.string.isRequired,
-  infoViewOpen: React.PropTypes.bool.isRequired,
-  onToggleInfoView: React.PropTypes.func.isRequired,
-  onChangeVisualization: React.PropTypes.func.isRequired,
+View.propTypes = strictProps({
+  visualizationType: React.PropTypes.string,
+  infoViewOpen: React.PropTypes.bool,
+  onToggleInfoView: React.PropTypes.func,
   dataDate: React.PropTypes.string,
-  desktop: React.PropTypes.bool.isRequired,
-  expanded: React.PropTypes.bool.isRequired,
-}
+  desktop: React.PropTypes.bool,
+  expanded: React.PropTypes.bool,
+})

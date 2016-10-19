@@ -18,12 +18,13 @@ export default class CircleChart extends React.Component {
     const {mainGraph, circleData, isUS, avgData} = this.props
 
     if (!circleData || circleData.length === 0) return (<svg></svg>)
-    const maxValue = 37
+    const maxValue = 32
     const linearScale = d3.scaleLinear().domain([0, 100]).range([0, maxValue])
     const percentageScale = val => linearScale(val).toString() + '%'
     const countryValue = circleData.countryData ? circleData.countryData.value : 0
     const usaValue = circleData.usaData ? circleData.usaData.value : 0
     const worldAverage = avgData
+
     return (
       <svg width="100%" height="100%" className={style.circleChart}>
         <defs>

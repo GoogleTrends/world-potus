@@ -11,7 +11,7 @@ let mapStateToProps = (state) => (
     selectedTopic: selectedTopicSelector(state),
     candidate: state.quotes.candidate,
     usDataEnabled: state.gooeyBubbles.usDataEnabled,
-    country: state.country,
+    country: state.country || '',
   }
 )
 

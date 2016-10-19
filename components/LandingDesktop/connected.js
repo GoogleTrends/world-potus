@@ -2,15 +2,10 @@ import { connect } from 'react-redux'
 
 import LandingDesktop from './pure'
 
-let mapStateToProps = (state) => (
-  {
-  }
-)
-
-let mapDispatchToProps = (dispatch) => (
+const mapDispatchToProps = (dispatch) => (
   {
     onSelectCandidate: candidate => { dispatch({type: 'CHANGE_CANDIDATE', candidate}) },
   }
 )
 
-export default connect(mapStateToProps, mapDispatchToProps)(LandingDesktop)
+export default connect(null, mapDispatchToProps)(LandingDesktop)

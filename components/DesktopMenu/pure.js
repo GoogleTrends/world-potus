@@ -55,7 +55,7 @@ export default class DesktopMenu extends React.Component {
               <div className={style.worldPotus}/>
             </a>
           </div>
-          <div className={style.menuHeader} style={{paddingBottom: '10px'}}>
+          <div className={style.menuHeaderNotClickable}>
             { getText('menu_topics') }
             <div className={style.menuDate}>
               Showing data for

@@ -2,7 +2,7 @@
 {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 
     color: black;
     background-color: #112340;
@@ -250,13 +250,12 @@
   opacity: 1;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)
-{
-    .description canvas
-    {
-        display: none;
-    }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .description canvas {
+    display: none;
+  }
 }
+
 
 @keyframes circleAnimationKeyframes
 {

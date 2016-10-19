@@ -132,6 +132,16 @@
   background-color: #e4e3e3;
 }
 
+.menuHeaderNotClickable {
+  composes: menuHeader;
+  padding-bottom: 10px;
+  cursor: default;
+}
+
+.menuHeaderNotClickable:hover {
+  background-color: #ffffff;
+}
+
 .menuText {
   font-size: 14px;
 
@@ -221,4 +231,11 @@
   text-transform: none;
 
   color: #bdbdbd;
+}
+
+@media only screen
+  and (max-width: 1085px) {
+  .menuHeader {
+    font-size: 13px;
+  }
 }

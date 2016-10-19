@@ -4,7 +4,6 @@ import Tutorial from './pure'
 let mapStateToProps = (state) => (
   {
     tutorial: state.view.tutorial,
-    desktop: state.resize.desktop,
   }
 )
 

@@ -84,6 +84,10 @@ export function isSafari() {
   return /^((?!chrome|android).)*safari/.test(window.navigator.userAgent.toLowerCase())
 }
 
+export function isTouch() {
+  return /(iphone|ipod|ipad|android|iemobile|blackberry|bada)/.test(window.navigator.userAgent.toLowerCase())
+}
+
 export function joinClasses(...classNames) {
   return classNames.filter(Boolean).join(' ')
 }

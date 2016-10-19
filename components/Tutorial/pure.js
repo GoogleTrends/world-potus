@@ -1,5 +1,8 @@
 import React from 'react'
 import style from './style.css'
+import { isTouch } from 'utils'
+
+const IS_TOUCH = isTouch()
 
 function isLocalStorageNameSupported() {
   try {
@@ -20,7 +23,6 @@ export default class Tutorial extends React.Component {
   }
 
   render() {
-    const {desktop} = this.props
     const tutorialStyle = this.props.tutorial ? style.tutorial : (style.tutorial + ' ' + style.hide)
     return (
       <div className={tutorialStyle}>
@@ -30,7 +32,7 @@ export default class Tutorial extends React.Component {
             <div className={style.tutorialHorizontalCandidateLineLeft}></div>
           </div>
           <div className={style.tutorialBubblesText}>
-            {desktop ? 'Click' : 'Tap'} to show search interest in topic + candidate
+            {IS_TOUCH ? 'Tap' : 'Click'} to show search interest in topic + candidate
           </div>
           <div className={style.tutorialCandidateCircleContainer}>
             <div className={style.tutorialCandidateCircle}></div>
@@ -42,7 +44,7 @@ export default class Tutorial extends React.Component {
             <div className={style.tutorialBlobLineArrowTop}></div>
             <div className={style.tutorialBlobLineTop}></div>
             <div className={style.tutorialBlobLineText}>
-              {desktop ? 'Arrow up/down to change topic' : 'Swipe to change topic'}
+              {IS_TOUCH ? 'Swipe' : 'Arrow'} up/down to change topic
             </div>
             <div className={style.tutorialBlobLineBottom}></div>
             <div className={style.tutorialBlobLineArrowBottom}></div>
@@ -50,7 +52,7 @@ export default class Tutorial extends React.Component {
           <div className={style.tutorialBlobCircleContainer}>
             <div className={style.tutorialCircle}>
               <div className={style.tutorialBlobCircleText}>
-                {desktop ? 'Click' : 'Tap'} to switch continent / country view
+                {IS_TOUCH ? 'Tap' : 'Click'} to switch continent / country view
               </div>
             </div>
           </div>
@@ -61,7 +63,7 @@ export default class Tutorial extends React.Component {
         <div className={style.tutorialBottom}>
           <div className={style.tutorialFlagContainer}>
             <div className={style.tutorialFlagText}>
-              {desktop ? 'Click' : 'Tap'} to show / hide USA
+              {IS_TOUCH ? 'Tap' : 'Click'} to show / hide USA
             </div>
             <div className={style.tutorialFlagLine}></div>
             <div className={style.tutorialCandidateCircleBottom} style={{top: '15px', backgroundColor: 'white'}}></div>
@@ -78,5 +80,4 @@ export default class Tutorial extends React.Component {
 Tutorial.propTypes = {
   tutorial: React.PropTypes.bool,
   onToggleTutorial: React.PropTypes.func,
-  desktop: React.PropTypes.bool,
 }

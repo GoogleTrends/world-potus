@@ -45,3 +45,23 @@ if (module.hot) {
     render(<App_ store={store} />, document.getElementById('root'))
   })
 }
+
+if (process.env.NODE_ENV === 'development') {
+  const Perf = require('react/lib/ReactPerf')
+
+  let started = false
+  document.addEventListener('keypress', (event) => {
+    console.log(event)
+    const LETTER_Q = 113
+    if (event.charCode !== LETTER_Q) return
+    if (started) {
+      Perf.stop()
+      console.info("--- Perf Wasted ---")
+      Perf.printWasted()
+    } else {
+      console.info("--- Perf START ---")
+      Perf.start()
+    }
+    started = !started
+  })
+}
